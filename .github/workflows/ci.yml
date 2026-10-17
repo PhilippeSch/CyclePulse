@@ -1,8 +1,16 @@
 name: CI
 
+# Branches are checked through their pull request; a push builds main only.
+# Running both for every push doubled the load and the noise.
 on:
   push:
+    branches: [main]
   pull_request:
+
+# A newer push to the same branch makes the older run pointless.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build-and-test:
@@ -34,8 +42,22 @@ jobs:
             -destination 'generic/platform=watchOS' \
             CODE_SIGNING_ALLOWED=NO
 
+      # One simulator, tests in sequence: parallel clones on a shared runner
+      # are what made UI tests time out at random. TEST_RUNNER_CI reaches the
+      # test process as CI, so the launch-timing test skips itself.
       - name: Test the iPhone app
+        env:
+          TEST_RUNNER_CI: "1"
         run: |
           xcodebuild test \
             -scheme "Sauna Companion" \
-            -destination 'platform=iOS Simulator,name=iPhone 17'
+            -destination 'platform=iOS Simulator,name=iPhone 17' \
+            -parallel-testing-enabled NO \
+            -resultBundlePath TestResults.xcresult
+
+      - name: Keep the test results
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: TestResults
+          path: TestResults.xcresult

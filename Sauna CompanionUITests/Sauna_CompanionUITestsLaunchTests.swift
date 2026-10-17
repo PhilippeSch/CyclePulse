@@ -9,8 +9,11 @@ import XCTest
 
 final class Sauna_CompanionUITestsLaunchTests: XCTestCase {
 
+    // One launch is enough for a smoke test. Running it for every UI
+    // configuration (appearances × orientations) meant a dozen launches per
+    // run, which a CI runner could not always fit into its timeouts.
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
-        true
+        false
     }
 
     override func setUpWithError() throws {
