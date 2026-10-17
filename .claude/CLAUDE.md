@@ -3,9 +3,10 @@
 ## What this is
 
 An Apple Watch round timer with live heart rate (rounds and rest phases), with
-an iPhone companion for statistics and history. The project, targets, schemes
-and bundle IDs keep the old working name "Sauna Companion"; they are
-identifiers and stay. SwiftUI, HealthKit as the only data store, no backend.
+an iPhone companion for statistics and history. Targets and schemes are
+"Cycle Pulse" and "Cycle Pulse Watch App". The project file, source folders,
+bundle IDs and Swift module names (`PRODUCT_MODULE_NAME`) keep the old working
+name "Sauna Companion"; they are identifiers and stay. SwiftUI, HealthKit as the only data store, no backend.
 Localised in English, German, Swedish and Finnish. The repository is public.
 `README.md` describes the features, the architecture and how to build.
 
@@ -56,8 +57,8 @@ Localised in English, German, Swedish and Finnish. The repository is public.
    `.github/workflows/ci.yml`:
 
    ```
-   xcodebuild build -scheme "Sauna Companion Watch App" -destination 'generic/platform=watchOS' CODE_SIGNING_ALLOWED=NO
-   xcodebuild test -scheme "Sauna Companion" -destination 'platform=iOS Simulator,name=iPhone 17'
+   xcodebuild build -scheme "Cycle Pulse Watch App" -destination 'generic/platform=watchOS' CODE_SIGNING_ALLOWED=NO
+   xcodebuild test -scheme "Cycle Pulse" -destination 'platform=iOS Simulator,name=iPhone 17'
    ```
 
    A session without the toolchain, such as a cloud session, cannot do this

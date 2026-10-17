@@ -90,10 +90,12 @@ weight comes from Health unless overridden in settings.
 
 ## Build
 
-Open `Sauna Companion.xcodeproj` and run the *Sauna Companion Watch App* scheme.
-The project, target and bundle identifiers keep the app's original working
-name; they are identifiers, and the Health data of existing sessions is bound
-to them.
+Open `Sauna Companion.xcodeproj` and run the *Cycle Pulse Watch App* scheme.
+The project file, the source folders, the bundle identifiers and the Swift
+module names (`Sauna_Companion`, `Sauna_Companion_Watch_App`) keep the app's
+original working name: the Health data of existing sessions is bound to the
+bundle identifiers, and the Action button's stored intents to the module
+names.
 
 The build number is a `YYYYMMDDHHMM` timestamp shared by both apps: a build
 phase writes `Config/Version.xcconfig`, and every target takes
@@ -103,7 +105,7 @@ watch app always carry the same number. It takes effect from the next build.
 ## Tests
 
 ```
-xcodebuild test -scheme "Sauna Companion" -destination 'platform=iOS Simulator,name=iPhone 17'
+xcodebuild test -scheme "Cycle Pulse" -destination 'platform=iOS Simulator,name=iPhone 17'
 ```
 
 Covers the session state machine, statistics, the calorie model, duration

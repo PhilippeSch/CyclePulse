@@ -20,13 +20,15 @@
 //    just as well for a session started with the on-screen button.
 //
 //  What the app cannot do is claim the button: it has to be pointed here
-//  once, under Settings > Action Button > Action: Workout > App: Sauna
-//  Companion. ActionButtonInfoView says so on first launch.
+//  once, under Settings > Action Button > Action: Workout > App: Cycle
+//  Pulse. ActionButtonInfoView says so on first launch.
 //
 //  The intent identifiers the system stores are module-qualified, so renaming
-//  the target (Sauna_Tracker_Watch_App -> Sauna_Companion_Watch_App) makes any
+//  the module (Sauna_Tracker_Watch_App -> Sauna_Companion_Watch_App) made any
 //  donation held from an older build unresolvable. Reassigning the button does
-//  not clear those; deleting the app from the watch does.
+//  not clear those; deleting the app from the watch does. That is why the
+//  target is now called "Cycle Pulse Watch App" but PRODUCT_MODULE_NAME keeps
+//  Sauna_Companion_Watch_App.
 //
 
 import AppIntents

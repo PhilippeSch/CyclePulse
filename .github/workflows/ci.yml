@@ -38,7 +38,7 @@ jobs:
       - name: Build the watch app
         run: |
           xcodebuild build \
-            -scheme "Sauna Companion Watch App" \
+            -scheme "Cycle Pulse Watch App" \
             -destination 'generic/platform=watchOS' \
             CODE_SIGNING_ALLOWED=NO
 
@@ -50,7 +50,7 @@ jobs:
           TEST_RUNNER_CI: "1"
         run: |
           xcodebuild test \
-            -scheme "Sauna Companion" \
+            -scheme "Cycle Pulse" \
             -destination 'platform=iOS Simulator,name=iPhone 17' \
             -parallel-testing-enabled NO \
             -resultBundlePath TestResults.xcresult
