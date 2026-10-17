@@ -46,7 +46,7 @@ struct ActionButtonInfoView: View {
                     .foregroundStyle(.secondary)
                     .padding(.top, 2)
 
-                Text("Settings → Action Button → Action: Workout → App: RoundPulse")
+                Text("Settings → Action Button → Action: Workout → App: Cycle Pulse")
                     .font(.system(size: 13, weight: .semibold))
                     .padding(8)
                     .frame(maxWidth: .infinity)

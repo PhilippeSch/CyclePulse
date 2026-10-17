@@ -1,4 +1,4 @@
-# RoundPulse
+# Cycle Pulse
 
 ## What this is
 

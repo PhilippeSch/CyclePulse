@@ -7,25 +7,25 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse"
+            "value" : "Cycle Pulse"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse"
+            "value" : "Cycle Pulse"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse"
+            "value" : "Cycle Pulse"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse"
+            "value" : "Cycle Pulse"
           }
         }
       }
@@ -49,25 +49,25 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse liest deinen Sitzungsverlauf und dein Körpergewicht aus Health, um Statistiken zu zeigen und Kalorien zu schätzen."
+            "value" : "Cycle Pulse liest deinen Sitzungsverlauf und dein Körpergewicht aus Health, um Statistiken zu zeigen und Kalorien zu schätzen."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse reads your session history and body weight from Health to show statistics and estimate calories burned."
+            "value" : "Cycle Pulse reads your session history and body weight from Health to show statistics and estimate calories burned."
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse lukee istuntohistoriasi ja painosi Terveydestä näyttääkseen tilastoja ja arvioidakseen kalorit."
+            "value" : "Cycle Pulse lukee istuntohistoriasi ja painosi Terveydestä näyttääkseen tilastoja ja arvioidakseen kalorit."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse läser din passhistorik och din kroppsvikt från Hälsa för att visa statistik och beräkna kalorier."
+            "value" : "Cycle Pulse läser din passhistorik och din kroppsvikt från Hälsa för att visa statistik och beräkna kalorier."
           }
         }
       }
@@ -79,25 +79,25 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse kann Notizen zu Sitzungen aktualisieren, die in Health gespeichert sind."
+            "value" : "Cycle Pulse kann Notizen zu Sitzungen aktualisieren, die in Health gespeichert sind."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse can update session notes stored in Health."
+            "value" : "Cycle Pulse can update session notes stored in Health."
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse voi päivittää Terveyteen tallennettujen istuntojen muistiinpanoja."
+            "value" : "Cycle Pulse voi päivittää Terveyteen tallennettujen istuntojen muistiinpanoja."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse kan uppdatera anteckningar om pass som sparats i Hälsa."
+            "value" : "Cycle Pulse kan uppdatera anteckningar om pass som sparats i Hälsa."
           }
         }
       }

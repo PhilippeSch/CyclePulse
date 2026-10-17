@@ -3,7 +3,7 @@
 ## Name (max. 30)
 
 ```
-RoundPulse
+Cycle Pulse
 ```
 
 ## Subtitle (max. 30)
@@ -27,7 +27,7 @@ interval,rounds,rest,heart rate,pulse,timer,stopwatch,recovery,routine,watch,ult
 ## Description (max. 4000)
 
 ```
-Many routines are made of rounds: a phase, then a rest, then the next round. RoundPulse counts them, round by round, on your Apple Watch.
+Many routines are made of rounds: a phase, then a rest, then the next round. Cycle Pulse counts them, round by round, on your Apple Watch.
 
 On Apple Watch a large timer runs in the colour of the phase: orange during a round, teal during the rest. Beside it, your current pulse, the highest pulse of the round, and the round you are on. Swipe left to end the session or engage Water Lock.
 
@@ -52,7 +52,7 @@ Apple Health is the only store. Each finished session is written as a workout, w
 
 Calories are estimated with the MET model, counting only the time spent in rounds, not the rests. The MET value is adjustable between 1.5 and 2.0; body weight comes from Health or from settings.
 
-RoundPulse is not a medical device and is not intended for diagnosis or treatment.
+Cycle Pulse is not a medical device and is not intended for diagnosis or treatment.
 
 English, German, Swedish, Finnish.
 ```
@@ -60,13 +60,13 @@ English, German, Swedish, Finnish.
 ## Support URL
 
 ```
-https://github.com/PhilippeSch/RoundPulse/issues
+https://github.com/PhilippeSch/CyclePulse/issues
 ```
 
 ## Privacy Policy URL
 
 ```
-https://github.com/PhilippeSch/RoundPulse/blob/main/docs/Privacy.md
+https://github.com/PhilippeSch/CyclePulse/blob/main/docs/Privacy.md
 ```
 
 ## Copyright (max. 200, same for all languages)

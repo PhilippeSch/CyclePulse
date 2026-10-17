@@ -1,4 +1,4 @@
-# Privacy Policy — RoundPulse
+# Privacy Policy — Cycle Pulse
 
 **English** ·
 [Deutsch](#deutsch) ·
@@ -9,7 +9,7 @@ Last updated: 17 October 2026
 
 ## Short version
 
-**RoundPulse collects no data.** The app has no server, no account, no network code and no third-party components. Your sessions are stored in Apple Health on your own devices, under your control. Nothing is transmitted to the developer, because there is nowhere for it to be transmitted to.
+**Cycle Pulse collects no data.** The app has no server, no account, no network code and no third-party components. Your sessions are stored in Apple Health on your own devices, under your control. Nothing is transmitted to the developer, because there is nowhere for it to be transmitted to.
 
 ## No data collection, no tracking
 
@@ -45,7 +45,7 @@ Should this policy ever change, the new version will appear at this address with
 
 ## Contact
 
-Questions about this policy, bug reports and feature requests: please open an issue in the [RoundPulse repository on GitHub](https://github.com/PhilippeSch/RoundPulse/issues).
+Questions about this policy, bug reports and feature requests: please open an issue in the [Cycle Pulse repository on GitHub](https://github.com/PhilippeSch/CyclePulse/issues).
 
 Developer: Philippe Scheuber, Switzerland
 
@@ -53,13 +53,13 @@ Developer: Philippe Scheuber, Switzerland
 
 ## Deutsch
 
-# Datenschutzerklärung — RoundPulse
+# Datenschutzerklärung — Cycle Pulse
 
 Stand: 17. Oktober 2026
 
 ### Kurz
 
-**RoundPulse erhebt keine Daten.** Die App hat keinen Server, kein Konto, keinen Netzwerkcode und keine Bestandteile Dritter. Ihre Sitzungen liegen in Apple Health auf Ihren eigenen Geräten, unter Ihrer Kontrolle. An den Entwickler wird nichts übermittelt — es gibt kein Wohin.
+**Cycle Pulse erhebt keine Daten.** Die App hat keinen Server, kein Konto, keinen Netzwerkcode und keine Bestandteile Dritter. Ihre Sitzungen liegen in Apple Health auf Ihren eigenen Geräten, unter Ihrer Kontrolle. An den Entwickler wird nichts übermittelt — es gibt kein Wohin.
 
 ### Keine Datenerhebung, keine Nachverfolgung
 
@@ -95,7 +95,7 @@ Sollte sich diese Erklärung ändern, erscheint die neue Fassung unter dieser Ad
 
 ### Kontakt
 
-Fragen zu dieser Erklärung, Fehlermeldungen und Wünsche: bitte ein Issue im [RoundPulse-Repository auf GitHub](https://github.com/PhilippeSch/RoundPulse/issues) eröffnen.
+Fragen zu dieser Erklärung, Fehlermeldungen und Wünsche: bitte ein Issue im [Cycle-Pulse-Repository auf GitHub](https://github.com/PhilippeSch/CyclePulse/issues) eröffnen.
 
 Entwickler: Philippe Scheuber, Schweiz
 
@@ -103,13 +103,13 @@ Entwickler: Philippe Scheuber, Schweiz
 
 ## Svenska
 
-# Integritetspolicy — RoundPulse
+# Integritetspolicy — Cycle Pulse
 
 Senast uppdaterad: 17 oktober 2026
 
 ### Kort
 
-**RoundPulse samlar inte in några data.** Appen har ingen server, inget konto, ingen nätverkskod och inga komponenter från tredje part. Dina pass ligger i Apple Health på dina egna enheter, under din kontroll. Ingenting överförs till utvecklaren, för det finns ingenstans att överföra det till.
+**Cycle Pulse samlar inte in några data.** Appen har ingen server, inget konto, ingen nätverkskod och inga komponenter från tredje part. Dina pass ligger i Apple Health på dina egna enheter, under din kontroll. Ingenting överförs till utvecklaren, för det finns ingenstans att överföra det till.
 
 ### Ingen insamling, ingen spårning
 
@@ -145,7 +145,7 @@ Skulle denna policy ändras kommer den nya versionen att finnas på denna adress
 
 ### Kontakt
 
-Frågor om denna policy, felrapporter och önskemål: öppna gärna ett ärende i [RoundPulse-arkivet på GitHub](https://github.com/PhilippeSch/RoundPulse/issues).
+Frågor om denna policy, felrapporter och önskemål: öppna gärna ett ärende i [Cycle Pulse-arkivet på GitHub](https://github.com/PhilippeSch/CyclePulse/issues).
 
 Utvecklare: Philippe Scheuber, Schweiz
 
@@ -153,13 +153,13 @@ Utvecklare: Philippe Scheuber, Schweiz
 
 ## Suomi
 
-# Tietosuojakäytäntö — RoundPulse
+# Tietosuojakäytäntö — Cycle Pulse
 
 Viimeksi päivitetty: 17. lokakuuta 2026
 
 ### Lyhyesti
 
-**RoundPulse ei kerää mitään tietoja.** Sovelluksella ei ole palvelinta, tiliä, verkkokoodia eikä kolmansien osapuolten osia. Istuntosi ovat Apple Healthissa omilla laitteillasi, sinun hallinnassasi. Kehittäjälle ei välitetä mitään, koska ei ole paikkaa, johon välittää.
+**Cycle Pulse ei kerää mitään tietoja.** Sovelluksella ei ole palvelinta, tiliä, verkkokoodia eikä kolmansien osapuolten osia. Istuntosi ovat Apple Healthissa omilla laitteillasi, sinun hallinnassasi. Kehittäjälle ei välitetä mitään, koska ei ole paikkaa, johon välittää.
 
 ### Ei tiedonkeruuta, ei seurantaa
 
@@ -195,6 +195,6 @@ Jos tämä käytäntö joskus muuttuu, uusi versio ilmestyy tähän osoitteeseen
 
 ### Yhteystiedot
 
-Tätä käytäntöä koskevat kysymykset, virheilmoitukset ja toiveet: avaa issue [RoundPulsen GitHub-arkistoon](https://github.com/PhilippeSch/RoundPulse/issues).
+Tätä käytäntöä koskevat kysymykset, virheilmoitukset ja toiveet: avaa issue [Cycle Pulsen GitHub-arkistoon](https://github.com/PhilippeSch/CyclePulse/issues).
 
 Kehittäjä: Philippe Scheuber, Sveitsi

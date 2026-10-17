@@ -14,7 +14,7 @@ struct StartSessionView: View {
                 .font(.system(size: 32))
                 .foregroundStyle(.orange)
 
-            Text("RoundPulse")
+            Text("Cycle Pulse")
                 .font(.system(size: 17, weight: .semibold))
                 .foregroundStyle(.white)
                 // The name has to survive a 40 mm case, where 17pt can run

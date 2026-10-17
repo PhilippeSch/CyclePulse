@@ -7,25 +7,25 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse"
+            "value" : "Cycle Pulse"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse"
+            "value" : "Cycle Pulse"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse"
+            "value" : "Cycle Pulse"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse"
+            "value" : "Cycle Pulse"
           }
         }
       }
@@ -37,7 +37,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "RoundPulse"
+            "value" : "Cycle Pulse"
           }
         }
       }
@@ -49,25 +49,25 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse liest während einer Sitzung deinen Puls, um ihn live anzuzeigen, und dein Körpergewicht für die Kalorienschätzung."
+            "value" : "Cycle Pulse liest während einer Sitzung deinen Puls, um ihn live anzuzeigen, und dein Körpergewicht für die Kalorienschätzung."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse reads your heart rate during a session to show it live, and your body weight to estimate calories burned."
+            "value" : "Cycle Pulse reads your heart rate during a session to show it live, and your body weight to estimate calories burned."
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse lukee sykkeesi istunnon aikana näyttääkseen sen suoraan, ja painosi kalorioarviota varten."
+            "value" : "Cycle Pulse lukee sykkeesi istunnon aikana näyttääkseen sen suoraan, ja painosi kalorioarviota varten."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse läser din puls under ett pass för att visa den direkt, och din kroppsvikt för att beräkna kalorierna."
+            "value" : "Cycle Pulse läser din puls under ett pass för att visa den direkt, och din kroppsvikt för att beräkna kalorierna."
           }
         }
       }
@@ -79,25 +79,25 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse sichert deine Sitzungen — Runden, Puls und Kalorien — in Health, damit sie in deinem Verlauf und in der Fitness-App erscheinen."
+            "value" : "Cycle Pulse sichert deine Sitzungen — Runden, Puls und Kalorien — in Health, damit sie in deinem Verlauf und in der Fitness-App erscheinen."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse saves your sessions — rounds, heart rate, and calories — to Health so they appear in your history and the Fitness app."
+            "value" : "Cycle Pulse saves your sessions — rounds, heart rate, and calories — to Health so they appear in your history and the Fitness app."
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse tallentaa istuntosi — kierrokset, sykkeen ja kalorit — Terveyteen, jotta ne näkyvät historiassasi ja Fitness-apissa."
+            "value" : "Cycle Pulse tallentaa istuntosi — kierrokset, sykkeen ja kalorit — Terveyteen, jotta ne näkyvät historiassasi ja Fitness-apissa."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse sparar dina pass — omgångar, puls och kalorier — i Hälsa, så att de syns i din historik och i Fitness-appen."
+            "value" : "Cycle Pulse sparar dina pass — omgångar, puls och kalorier — i Hälsa, så att de syns i din historik och i Fitness-appen."
           }
         }
       }

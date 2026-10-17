@@ -966,30 +966,30 @@
         }
       }
     },
-    "RoundPulse" : {
+    "Cycle Pulse" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse"
+            "value" : "Cycle Pulse"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse"
+            "value" : "Cycle Pulse"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse"
+            "value" : "Cycle Pulse"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RoundPulse"
+            "value" : "Cycle Pulse"
           }
         }
       }
@@ -1134,30 +1134,30 @@
         }
       }
     },
-    "Settings → Action Button → Action: Workout → App: RoundPulse" : {
+    "Settings → Action Button → Action: Workout → App: Cycle Pulse" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Einstellungen → Aktionstaste → Aktion: Training → App: RoundPulse"
+            "value" : "Einstellungen → Aktionstaste → Aktion: Training → App: Cycle Pulse"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Settings → Action Button → Action: Workout → App: RoundPulse"
+            "value" : "Settings → Action Button → Action: Workout → App: Cycle Pulse"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Asetukset → Toimintopainike → Toiminto: Treeni → Appi: RoundPulse"
+            "value" : "Asetukset → Toimintopainike → Toiminto: Treeni → Appi: Cycle Pulse"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Inställningar → Funktionsknapp → Åtgärd: Träning → App: RoundPulse"
+            "value" : "Inställningar → Funktionsknapp → Åtgärd: Träning → App: Cycle Pulse"
           }
         }
       }

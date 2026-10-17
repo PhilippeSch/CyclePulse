@@ -1,4 +1,4 @@
-# RoundPulse
+# Cycle Pulse
 
 An Apple Watch round timer with live heart rate, with an iPhone companion for
 statistics and history. Built to be read at a glance: dark, high contrast, few
@@ -52,7 +52,7 @@ the first doing nothing.
 **One-time setup.** An app cannot claim the button; it has to be pointed here,
 and the assignment is global rather than per-app:
 
-**Settings → Action Button → Action: Workout → App: RoundPulse**
+**Settings → Action Button → Action: Workout → App: Cycle Pulse**
 
 While it points here, a press no longer starts a workout in Apple's Workout
 app. `ActionButtonInfoView` says all of this on first launch, on Ultra models
@@ -68,7 +68,7 @@ has no account and collects nothing. Deleting a session in the app deletes the
 workout in Health.
 
 A note is stored with the workout, but Health and Fitness do not render
-third-party workout metadata — so notes are only visible inside RoundPulse.
+third-party workout metadata — so notes are only visible inside Cycle Pulse.
 
 ## Calories
 

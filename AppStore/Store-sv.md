@@ -3,7 +3,7 @@
 ## Namn (max. 30)
 
 ```
-RoundPulse
+Cycle Pulse
 ```
 
 ## Underrubrik (max. 30)
@@ -27,7 +27,7 @@ intervall,omgångar,vila,puls,hjärtfrekvens,timer,stoppur,återhämtning,rutin,
 ## Beskrivning (max. 4000)
 
 ```
-Många rutiner består av omgångar: en fas, sedan vila, sedan nästa omgång. RoundPulse räknar dem, omgång för omgång, på din Apple Watch.
+Många rutiner består av omgångar: en fas, sedan vila, sedan nästa omgång. Cycle Pulse räknar dem, omgång för omgång, på din Apple Watch.
 
 På Apple Watch går en stor timer i fasens färg: orange under en omgång, turkos under vilan. Bredvid den din aktuella puls, omgångens högsta puls och vilken omgång du är på. Svep åt vänster för att avsluta passet eller slå på vattenlåset.
 
@@ -52,7 +52,7 @@ Apple Hälsa är den enda lagringsplatsen. Varje avslutat pass sparas som ett tr
 
 Kalorierna beräknas med MET-modellen och räknar bara tiden i omgångarna, inte vilan. MET-värdet kan ställas in mellan 1,5 och 2,0; kroppsvikten hämtas från Hälsa eller från inställningarna.
 
-RoundPulse är ingen medicinteknisk produkt och är inte avsedd för diagnos eller behandling.
+Cycle Pulse är ingen medicinteknisk produkt och är inte avsedd för diagnos eller behandling.
 
 Svenska, engelska, tyska, finska.
 ```
@@ -60,13 +60,13 @@ Svenska, engelska, tyska, finska.
 ## Support-URL
 
 ```
-https://github.com/PhilippeSch/RoundPulse/issues
+https://github.com/PhilippeSch/CyclePulse/issues
 ```
 
 ## Integritetspolicy-URL
 
 ```
-https://github.com/PhilippeSch/RoundPulse/blob/main/docs/Privacy.md
+https://github.com/PhilippeSch/CyclePulse/blob/main/docs/Privacy.md
 ```
 
 ## Copyright

@@ -3,7 +3,7 @@
 ## Nimi (enint. 30)
 
 ```
-RoundPulse
+Cycle Pulse
 ```
 
 ## Alaotsikko (enint. 30)
@@ -27,7 +27,7 @@ intervalli,kierrokset,tauko,syke,sydän,ajastin,sekuntikello,palautuminen,rutiin
 ## Kuvaus (enint. 4000)
 
 ```
-Moni rutiini koostuu kierroksista: vaihe, sitten tauko, sitten seuraava kierros. RoundPulse laskee ne kierros kierrokselta Apple Watchissasi.
+Moni rutiini koostuu kierroksista: vaihe, sitten tauko, sitten seuraava kierros. Cycle Pulse laskee ne kierros kierrokselta Apple Watchissasi.
 
 Apple Watchissa iso ajastin näkyy vaiheen värissä: oranssina kierroksen aikana, turkoosina tauolla. Sen vieressä nykyinen sykkeesi, kierroksen korkein syke ja meneillään oleva kierros. Pyyhkäise vasemmalle lopettaaksesi istunnon tai kytkeäksesi vesilukon päälle.
 
@@ -52,7 +52,7 @@ Apple Terveys on ainoa tallennuspaikka. Jokainen päättynyt istunto tallennetaa
 
 Kalorit arvioidaan MET-mallilla, ja vain kierroksilla vietetty aika lasketaan, ei taukoja. MET-arvon voi säätää välillä 1,5–2,0; paino haetaan Terveydestä tai asetuksista.
 
-RoundPulse ei ole lääkinnällinen laite eikä sitä ole tarkoitettu diagnosointiin tai hoitoon.
+Cycle Pulse ei ole lääkinnällinen laite eikä sitä ole tarkoitettu diagnosointiin tai hoitoon.
 
 Suomi, englanti, saksa, ruotsi.
 ```
@@ -60,13 +60,13 @@ Suomi, englanti, saksa, ruotsi.
 ## Tuki-URL
 
 ```
-https://github.com/PhilippeSch/RoundPulse/issues
+https://github.com/PhilippeSch/CyclePulse/issues
 ```
 
 ## Tietosuojakäytännön URL
 
 ```
-https://github.com/PhilippeSch/RoundPulse/blob/main/docs/Privacy.md
+https://github.com/PhilippeSch/CyclePulse/blob/main/docs/Privacy.md
 ```
 
 ## Copyright

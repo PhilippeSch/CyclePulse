@@ -665,30 +665,30 @@
         }
       }
     },
-    "For example: Evening rounds, felt relaxed.\nStored with the session, visible only in RoundPulse." : {
+    "For example: Evening rounds, felt relaxed.\nStored with the session, visible only in Cycle Pulse." : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zum Beispiel: Abendrunden, entspannt.\nWird bei der Sitzung gespeichert, sichtbar nur in RoundPulse."
+            "value" : "Zum Beispiel: Abendrunden, entspannt.\nWird bei der Sitzung gespeichert, sichtbar nur in Cycle Pulse."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "For example: Evening rounds, felt relaxed.\nStored with the session, visible only in RoundPulse."
+            "value" : "For example: Evening rounds, felt relaxed.\nStored with the session, visible only in Cycle Pulse."
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Esimerkiksi: iltakierrokset, rentoutunut olo.\nTallennetaan istunnon mukana, näkyy vain RoundPulsessa."
+            "value" : "Esimerkiksi: iltakierrokset, rentoutunut olo.\nTallennetaan istunnon mukana, näkyy vain Cycle Pulsessa."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Till exempel: kvällsomgångar, avslappnad.\nSparas med passet, syns bara i RoundPulse."
+            "value" : "Till exempel: kvällsomgångar, avslappnad.\nSparas med passet, syns bara i Cycle Pulse."
           }
         }
       }

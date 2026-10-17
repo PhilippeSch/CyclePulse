@@ -82,7 +82,7 @@ struct SessionDetailView: View {
                     // The note travels with the workout in Health, but Health
                     // and Fitness never render third-party workout metadata,
                     // so say plainly where it will and will not show up.
-                    Text("For example: Evening rounds, felt relaxed.\nStored with the session, visible only in RoundPulse.")
+                    Text("For example: Evening rounds, felt relaxed.\nStored with the session, visible only in Cycle Pulse.")
                 }
             }
         }
