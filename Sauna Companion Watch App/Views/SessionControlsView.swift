@@ -77,7 +77,7 @@ struct SessionControlsView: View {
         TimelineView(.periodic(from: .now, by: 1)) { _ in
             VStack(spacing: 3) {
                 row(label: "Rounds", value: "\(store.roundCount)")
-                row(label: "Sauna Time", value: DurationFormatter.clock(store.totalSaunaDurationSoFar))
+                row(label: "Round Time", value: DurationFormatter.clock(store.totalSaunaDurationSoFar))
                 row(label: "Total", value: DurationFormatter.clock(store.totalSessionDurationSoFar))
             }
         }

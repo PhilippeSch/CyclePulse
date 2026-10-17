@@ -3,61 +3,56 @@
 ## Namn (max. 30)
 
 ```
-Bastukompis
+RoundPulse
 ```
 
 ## Underrubrik (max. 30)
 
 ```
-Din bastu, varv för varv
+Omgångar, vila och puls
 ```
 
 ## Kampanjtext (max. 170)
 
 ```
-Stor timer, puls och varvräknare, läsbar med en blick. Varje pass sparas direkt i Apple Health. Inget konto, ingen server, ingen reklam.
+Stor timer, puls och omgångsräknare, läsbar med en blick. Varje pass sparas direkt i Apple Health. Inget konto, ingen server, ingen reklam.
 ```
 
 ## Nyckelord (max. 100)
 
 ```
-bastu,infraröd,bastupass,svettas,varv,puls,timer,välmående,återhämtning,värme,ultra
+intervall,omgångar,vila,puls,hjärtfrekvens,timer,stoppur,återhämtning,rutin,klocka,ultra
 ```
 
 ## Beskrivning (max. 4000)
 
 ```
-Ett bastubesök består av varv. Bastukompis räknar dem, varv för varv, på din Apple Watch Ultra.
+Många rutiner består av omgångar: en fas, sedan vila, sedan nästa omgång. RoundPulse räknar dem, omgång för omgång, på din Apple Watch.
 
-På Apple Watch löper en stor timer i fasens färg: orange i bastun, turkos under pausen. Bredvid den din puls just nu, varvets högsta puls och vilket varv du är på. Svep åt vänster för att avsluta passet eller slå på vattenlåset.
+På Apple Watch går en stor timer i fasens färg: orange under en omgång, turkos under vilan. Bredvid den din aktuella puls, omgångens högsta puls och vilken omgång du är på. Svep åt vänster för att avsluta passet eller slå på vattenlåset.
 
 PÅ KLOCKAN
-• Stor fastimer, orange för bastu, turkos för paus
-• Aktuell puls och det pågående varvets maximum
-• Always-On: fas, tid och puls förblir synliga
-• Vattenlås mot feltryck av svett
-• Vibration som påminnelse, med valt intervall eller helt avstängd
-• Åtgärdsknappen på Apple Watch Ultra: ett tryck växlar mellan bastu och paus
+• Stor fastimer, orange för omgång, turkos för vila
+• Aktuell puls och maxvärdet för pågående omgång
+• Alltid på: fas, tid och puls syns hela tiden
+• Vattenlås mot oavsiktliga tryck
+• Påminnelse med vibration i valfritt intervall, eller helt avstängd
+• Funktionsknappen på Apple Watch Ultra: ett tryck växlar mellan omgång och vila
 
 PÅ IPHONE
-• Statistik per dag, vecka, månad, år eller sedan start
-• Bastutid, pass, varv, kalorier, pulsutveckling
-• Längsta passet, favoritveckodag, favorittid på dygnet
-• Historik med varje enskilt varv
-• En anteckning per pass: ”Infraröd bastu 50 °C, eukalyptus”
-• MET-värde och kroppsvikt går att ställa in
-
-VÄRME OCH DIN APPLE WATCH
-Apple har klassat Apple Watch Ultra för bastu upp till 55 °C och ingen annan Apple Watch-modell för bastu alls. Bastukompis kör därför bastupass bara på Apple Watch Ultra och ber dig godkänna den gränsen före ditt första pass. Infraröda bastur kan köras inom den; en finsk bastu på 80 till 100 °C ligger långt över den. Ingen Apple Watch hör hemma i en ångbastu. Om klockan blir varm eller visar en temperaturvarning, ta av den och låt den svalna.
-
-Du använder appen på egen risk.
+• Statistik per dag, vecka, månad, år eller totalt
+• Omgångstid, pass, omgångar, kalorier, pulsutveckling
+• Längsta pass, favoritveckodag, favorittid på dygnet
+• Historik med varje enskild omgång
+• En anteckning per pass: ”Kvällsomgångar, avslappnad”
+• MET-värde och kroppsvikt kan justeras
 
 ALLT STANNAR HOS DIG
-Apple Health är den enda lagringsplatsen. Varje avslutat pass sparas som ett träningspass, med puls per varv och beräknad förbrukning; varvstrukturen och anteckningen följer med som metadata. Appen har ingen egen databas, inget konto, ingen server och ingen reklam, fungerar helt offline och samlar inte in något. Raderar du ett pass i appen raderas det även i Health.
+Apple Hälsa är den enda lagringsplatsen. Varje avslutat pass sparas som ett träningspass, med puls per omgång och beräknad energiförbrukning; omgångsstrukturen och anteckningen följer med som metadata. Appen har ingen egen databas, inget konto, ingen server och ingen reklam, fungerar helt offline och samlar inte in något. Raderar du ett pass i appen raderas det också i Hälsa.
 
-Kalorier beräknas med MET-modellen och räknar bara tiden i bastun. MET-värdet kan ställas in mellan 1,5 och 2,0; vikten hämtas från Health eller från inställningarna.
+Kalorierna beräknas med MET-modellen och räknar bara tiden i omgångarna, inte vilan. MET-värdet kan ställas in mellan 1,5 och 2,0; kroppsvikten hämtas från Hälsa eller från inställningarna.
 
-Bastukompis är ingen medicinteknisk produkt och är inte avsedd för diagnos eller behandling.
+RoundPulse är ingen medicinteknisk produkt och är inte avsedd för diagnos eller behandling.
 
 Svenska, engelska, tyska, finska.
 ```
@@ -65,13 +60,13 @@ Svenska, engelska, tyska, finska.
 ## Support-URL
 
 ```
-https://github.com/PhilippeSch/Sauna-Companion/issues
+https://github.com/PhilippeSch/RoundPulse/issues
 ```
 
 ## Integritetspolicy-URL
 
 ```
-https://github.com/PhilippeSch/Sauna-Companion/blob/main/docs/Privacy.md
+https://github.com/PhilippeSch/RoundPulse/blob/main/docs/Privacy.md
 ```
 
 ## Copyright

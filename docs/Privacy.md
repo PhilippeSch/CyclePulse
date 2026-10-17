@@ -1,15 +1,15 @@
-# Privacy Policy — Sauna Companion
+# Privacy Policy — RoundPulse
 
 **English** ·
 [Deutsch](#deutsch) ·
 [Svenska](#svenska) ·
 [Suomi](#suomi)
 
-Last updated: 5 September 2026
+Last updated: 17 October 2026
 
 ## Short version
 
-**Sauna Companion collects no data.** The app has no server, no account, no network code and no third-party components. Your sessions are stored in Apple Health on your own devices, under your control. Nothing is transmitted to the developer, because there is nowhere for it to be transmitted to.
+**RoundPulse collects no data.** The app has no server, no account, no network code and no third-party components. Your sessions are stored in Apple Health on your own devices, under your control. Nothing is transmitted to the developer, because there is nowhere for it to be transmitted to.
 
 ## No data collection, no tracking
 
@@ -45,7 +45,7 @@ Should this policy ever change, the new version will appear at this address with
 
 ## Contact
 
-Questions about this policy, bug reports and feature requests: please open an issue in the [Sauna Companion repository on GitHub](https://github.com/PhilippeSch/Sauna-Companion/issues).
+Questions about this policy, bug reports and feature requests: please open an issue in the [RoundPulse repository on GitHub](https://github.com/PhilippeSch/RoundPulse/issues).
 
 Developer: Philippe Scheuber, Switzerland
 
@@ -53,13 +53,13 @@ Developer: Philippe Scheuber, Switzerland
 
 ## Deutsch
 
-# Datenschutzerklärung — Sauna Companion
+# Datenschutzerklärung — RoundPulse
 
-Stand: 5. September 2026
+Stand: 17. Oktober 2026
 
 ### Kurz
 
-**Sauna Companion erhebt keine Daten.** Die App hat keinen Server, kein Konto, keinen Netzwerkcode und keine Bestandteile Dritter. Ihre Sitzungen liegen in Apple Health auf Ihren eigenen Geräten, unter Ihrer Kontrolle. An den Entwickler wird nichts übermittelt — es gibt kein Wohin.
+**RoundPulse erhebt keine Daten.** Die App hat keinen Server, kein Konto, keinen Netzwerkcode und keine Bestandteile Dritter. Ihre Sitzungen liegen in Apple Health auf Ihren eigenen Geräten, unter Ihrer Kontrolle. An den Entwickler wird nichts übermittelt — es gibt kein Wohin.
 
 ### Keine Datenerhebung, keine Nachverfolgung
 
@@ -95,7 +95,7 @@ Sollte sich diese Erklärung ändern, erscheint die neue Fassung unter dieser Ad
 
 ### Kontakt
 
-Fragen zu dieser Erklärung, Fehlermeldungen und Wünsche: bitte ein Issue im [Sauna-Companion-Repository auf GitHub](https://github.com/PhilippeSch/Sauna-Companion/issues) eröffnen.
+Fragen zu dieser Erklärung, Fehlermeldungen und Wünsche: bitte ein Issue im [RoundPulse-Repository auf GitHub](https://github.com/PhilippeSch/RoundPulse/issues) eröffnen.
 
 Entwickler: Philippe Scheuber, Schweiz
 
@@ -103,13 +103,13 @@ Entwickler: Philippe Scheuber, Schweiz
 
 ## Svenska
 
-# Integritetspolicy — Bastukompis
+# Integritetspolicy — RoundPulse
 
-Senast uppdaterad: 5 september 2026
+Senast uppdaterad: 17 oktober 2026
 
 ### Kort
 
-**Bastukompis samlar inte in några data.** Appen har ingen server, inget konto, ingen nätverkskod och inga komponenter från tredje part. Dina pass ligger i Apple Health på dina egna enheter, under din kontroll. Ingenting överförs till utvecklaren, för det finns ingenstans att överföra det till.
+**RoundPulse samlar inte in några data.** Appen har ingen server, inget konto, ingen nätverkskod och inga komponenter från tredje part. Dina pass ligger i Apple Health på dina egna enheter, under din kontroll. Ingenting överförs till utvecklaren, för det finns ingenstans att överföra det till.
 
 ### Ingen insamling, ingen spårning
 
@@ -145,7 +145,7 @@ Skulle denna policy ändras kommer den nya versionen att finnas på denna adress
 
 ### Kontakt
 
-Frågor om denna policy, felrapporter och önskemål: öppna gärna ett ärende i [Sauna Companion-arkivet på GitHub](https://github.com/PhilippeSch/Sauna-Companion/issues).
+Frågor om denna policy, felrapporter och önskemål: öppna gärna ett ärende i [RoundPulse-arkivet på GitHub](https://github.com/PhilippeSch/RoundPulse/issues).
 
 Utvecklare: Philippe Scheuber, Schweiz
 
@@ -153,13 +153,13 @@ Utvecklare: Philippe Scheuber, Schweiz
 
 ## Suomi
 
-# Tietosuojakäytäntö — Saunakaveri
+# Tietosuojakäytäntö — RoundPulse
 
-Viimeksi päivitetty: 5. syyskuuta 2026
+Viimeksi päivitetty: 17. lokakuuta 2026
 
 ### Lyhyesti
 
-**Saunakaveri ei kerää mitään tietoja.** Sovelluksella ei ole palvelinta, tiliä, verkkokoodia eikä kolmansien osapuolten osia. Saunakertasi ovat Apple Healthissa omilla laitteillasi, sinun hallinnassasi. Kehittäjälle ei välitetä mitään, koska ei ole paikkaa, johon välittää.
+**RoundPulse ei kerää mitään tietoja.** Sovelluksella ei ole palvelinta, tiliä, verkkokoodia eikä kolmansien osapuolten osia. Istuntosi ovat Apple Healthissa omilla laitteillasi, sinun hallinnassasi. Kehittäjälle ei välitetä mitään, koska ei ole paikkaa, johon välittää.
 
 ### Ei tiedonkeruuta, ei seurantaa
 
@@ -173,11 +173,11 @@ Sovellus toimii täysin verkotta. Se ei sisällä verkkokoodia; lentokonetilassa
 
 Sovellus pyytää lupaa lukea Apple Healthista ja kirjoittaa sinne. Luvan annat järjestelmän valintaikkunassa ja voit peruuttaa sen milloin tahansa: Terveys › Tietojen käyttö › Apit.
 
-**Terveyteen kirjoitetaan** sillä aikaa kun kello tallentaa saunakertaa: itse treeni (tyyppi *Muu*), syke ja arvioitu aktiivinen energiankulutus. Kierrosrakenne ja mahdollinen muistiinpano ovat treenin omissa metatiedoissa.
+**Terveyteen kirjoitetaan** sillä aikaa kun kello tallentaa istuntoa: itse treeni (tyyppi *Muu*), syke ja arvioitu aktiivinen energiankulutus. Kierrosrakenne ja mahdollinen muistiinpano ovat treenin omissa metatiedoissa.
 
 **Terveydestä luetaan**: treenit ja syke historiaa ja tilastoja varten sekä paino kalorioarviota varten.
 
-Nämä tiedot pysyvät Apple Healthissa. Synkronoidaanko ne laitteidesi välillä, ratkaisevat iCloud-asetuksesi, eivät tämä sovellus. Niitä ei koskaan lähetetä kehittäjälle eikä jaeta kenenkään kanssa. Kun poistat saunakerran sovelluksessa, vastaava treeni poistuu myös Terveydestä.
+Nämä tiedot pysyvät Apple Healthissa. Synkronoidaanko ne laitteidesi välillä, ratkaisevat iCloud-asetuksesi, eivät tämä sovellus. Niitä ei koskaan lähetetä kehittäjälle eikä jaeta kenenkään kanssa. Kun poistat istunnon sovelluksessa, vastaava treeni poistuu myös Terveydestä.
 
 Sovellus ei ole lääkinnällinen laite. Sen lukemat ja kalorioarvio ovat omaksi tiedoksesi eivätkä sovellu diagnosointiin tai hoitoon.
 
@@ -195,6 +195,6 @@ Jos tämä käytäntö joskus muuttuu, uusi versio ilmestyy tähän osoitteeseen
 
 ### Yhteystiedot
 
-Tätä käytäntöä koskevat kysymykset, virheilmoitukset ja toiveet: avaa issue [Sauna Companionin GitHub-arkistoon](https://github.com/PhilippeSch/Sauna-Companion/issues).
+Tätä käytäntöä koskevat kysymykset, virheilmoitukset ja toiveet: avaa issue [RoundPulsen GitHub-arkistoon](https://github.com/PhilippeSch/RoundPulse/issues).
 
 Kehittäjä: Philippe Scheuber, Sveitsi

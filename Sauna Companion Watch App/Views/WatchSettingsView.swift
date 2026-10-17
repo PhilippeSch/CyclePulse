@@ -2,8 +2,8 @@
 //  WatchSettingsView.swift
 //  Sauna Companion Watch App
 //
-//  The settings worth changing while standing next to the sauna, without
-//  reaching for the phone. Edits go through SettingsStore, so they persist
+//  The settings worth changing between rounds, without reaching for the
+//  phone. Edits go through SettingsStore, so they persist
 //  here and travel to the iPhone.
 //
 
@@ -11,7 +11,6 @@ import SwiftUI
 
 struct WatchSettingsView: View {
     @Bindable var store: SettingsStore
-    @State private var showingHeatSafety = false
 
     var body: some View {
         ScrollView {
@@ -45,15 +44,6 @@ struct WatchSettingsView: View {
                     .foregroundStyle(.secondary)
                     .padding(.top, 2)
 
-                // The notice accepted on first launch, kept within reach.
-                Button {
-                    showingHeatSafety = true
-                } label: {
-                    Label("Heat and Your Watch", systemImage: "thermometer.sun.fill")
-                        .font(.system(size: 14))
-                }
-                .padding(.top, 4)
-
                 Text("Version \(AppVersion.displayString)")
                     .font(.system(size: 10))
                     .foregroundStyle(.tertiary)
@@ -61,9 +51,6 @@ struct WatchSettingsView: View {
                     .padding(.top, 6)
             }
             .padding(.horizontal, 4)
-        }
-        .sheet(isPresented: $showingHeatSafety) {
-            HeatSafetyView { showingHeatSafety = false }
         }
     }
 

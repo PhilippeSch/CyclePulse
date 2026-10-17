@@ -34,7 +34,7 @@ struct EndSessionSummaryView: View {
 
             VStack(spacing: 2) {
                 summaryRow(label: "Rounds", value: "\(session.roundCount)")
-                summaryRow(label: "Sauna Time", value: DurationFormatter.clock(session.totalSaunaDuration))
+                summaryRow(label: "Round Time", value: DurationFormatter.clock(session.totalSaunaDuration))
                 if let kcal = session.activeEnergyKcal {
                     summaryRow(label: "Calories", value: "\(Int(kcal.rounded())) kcal")
                 }

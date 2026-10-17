@@ -3,61 +3,56 @@
 ## Nimi (enint. 30)
 
 ```
-Saunakaveri
+RoundPulse
 ```
 
 ## Alaotsikko (enint. 30)
 
 ```
-Saunasi, kierros kerrallaan
+Kierrokset, tauot ja syke
 ```
 
 ## Mainosteksti (enint. 170)
 
 ```
-Iso ajastin, syke ja kierroslaskuri, luettavissa yhdellä silmäyksellä. Jokainen kerta tallentuu suoraan Apple Healthiin. Ei tiliä, ei palvelinta, ei mainoksia.
+Iso ajastin, syke ja kierroslaskuri yhdellä silmäyksellä. Jokainen istunto tallentuu suoraan Apple Terveyteen. Ei tiliä, ei palvelinta, ei mainoksia.
 ```
 
 ## Avainsanat (enint. 100)
 
 ```
-infrapuna,infrapunasauna,saunominen,hikoilu,kierros,syke,ajastin,hyvinvointi,palautuminen,ultra
+intervalli,kierrokset,tauko,syke,sydän,ajastin,sekuntikello,palautuminen,rutiini,kello,ultra
 ```
 
 ## Kuvaus (enint. 4000)
 
 ```
-Saunareissu koostuu kierroksista. Saunakaveri laskee ne kierros kerrallaan Apple Watch Ultrassasi.
+Moni rutiini koostuu kierroksista: vaihe, sitten tauko, sitten seuraava kierros. RoundPulse laskee ne kierros kierrokselta Apple Watchissasi.
 
-Apple Watchissa käy iso ajastin vaiheen värissä: oranssi saunassa, turkoosi tauolla. Vieressä nykyinen syke, kierroksen korkein syke ja monesko kierros on menossa. Pyyhkäisy vasemmalle päättää kerran tai kytkee vesilukon.
+Apple Watchissa iso ajastin näkyy vaiheen värissä: oranssina kierroksen aikana, turkoosina tauolla. Sen vieressä nykyinen sykkeesi, kierroksen korkein syke ja meneillään oleva kierros. Pyyhkäise vasemmalle lopettaaksesi istunnon tai kytkeäksesi vesilukon päälle.
 
 KELLOSSA
-• Iso vaiheajastin, oranssi saunalle, turkoosi tauolle
-• Nykyinen syke ja käynnissä olevan kierroksen maksimi
-• Always-On: vaihe, aika ja syke pysyvät näkyvissä
-• Vesilukko estää hien aiheuttamat vahinkopainallukset
-• Värinämuistutus valitsemallasi välillä tai kokonaan pois
-• Apple Watch Ultran toimintopainike: yksi painallus vaihtaa saunan ja tauon välillä
+• Iso vaiheajastin, oranssi kierrokselle, turkoosi tauolle
+• Nykyinen syke ja meneillään olevan kierroksen maksimi
+• Aina päällä: vaihe, aika ja syke pysyvät näkyvissä
+• Vesilukko vahingossa tapahtuvia napautuksia vastaan
+• Muistutusvärinä valitsemallasi välillä tai kokonaan pois
+• Apple Watch Ultran toimintopainike: yksi painallus vaihtaa kierroksen ja tauon välillä
 
 IPHONESSA
-• Tilastot päivältä, viikolta, kuukaudelta, vuodelta tai koko ajalta
-• Saunaika, kerrat, kierrokset, kalorit, sykkeen kehitys
-• Pisin kerta, mieluisin viikonpäivä, mieluisin vuorokaudenaika
-• Historia kierros kerrallaan
-• Muistiinpano jokaisesta kerrasta: ”Infrapunasauna 50 °C, eukalyptus”
+• Tilastot päivän, viikon, kuukauden, vuoden tai koko ajan mukaan
+• Kierrosaika, istunnot, kierrokset, kalorit, sykkeen kehitys
+• Pisin istunto, mieluisin viikonpäivä, mieluisin vuorokaudenaika
+• Historia jokaisesta kierroksesta
+• Muistiinpano istuntoa kohden: ”Iltakierrokset, rentoutunut olo”
 • MET-arvo ja paino säädettävissä
 
-KUUMUUS JA APPLE WATCHISI
-Apple on tarkoittanut saunaan vain Apple Watch Ultran, enintään 55 °C:seen, eikä mitään muuta Apple Watch -mallia. Saunakaveri tekee siksi saunakertoja vain Apple Watch Ultralla ja pyytää sinua hyväksymään tämän rajan ennen ensimmäistä saunakertaa. Infrapunasaunat voi pitää tämän rajan sisällä; suomalainen sauna 80–100 °C:ssa on reilusti sen yli. Mitään Apple Watchia ei pidä pitää höyrysaunassa. Jos kello kuumenee tai näyttää lämpötilavaroituksen, riisu se ja anna sen jäähtyä.
-
-Käytät sovellusta omalla vastuullasi.
-
 KAIKKI PYSYY SINULLA
-Apple Health on ainoa tallennuspaikka. Jokainen päättynyt kerta tallentuu treeninä, mukana kierroskohtainen syke ja arvioitu kulutus; kierrosrakenne ja muistiinpano kulkevat metatietoina mukana. Sovelluksella ei ole omaa tietokantaa, tiliä, palvelinta eikä mainoksia, se toimii täysin verkotta eikä kerää mitään. Kun poistat kerran sovelluksessa, se poistuu myös Healthista.
+Apple Terveys on ainoa tallennuspaikka. Jokainen päättynyt istunto tallennetaan treeninä, sykkeen kanssa kierroksittain ja arvioidun energiankulutuksen kanssa; kierrosrakenne ja muistiinpano kulkevat mukana metatietoina. Sovelluksella ei ole omaa tietokantaa, tiliä, palvelinta eikä mainoksia, se toimii täysin offline-tilassa eikä kerää mitään. Kun poistat istunnon sovelluksessa, se poistuu myös Terveydestä.
 
-Kalorit arvioidaan MET-mallilla, ja mukaan lasketaan vain saunassa vietetty aika. MET-arvo on säädettävissä välillä 1,5–2,0; paino tulee Healthista tai asetuksista.
+Kalorit arvioidaan MET-mallilla, ja vain kierroksilla vietetty aika lasketaan, ei taukoja. MET-arvon voi säätää välillä 1,5–2,0; paino haetaan Terveydestä tai asetuksista.
 
-Saunakaveri ei ole lääkinnällinen laite eikä sitä ole tarkoitettu diagnosointiin tai hoitoon.
+RoundPulse ei ole lääkinnällinen laite eikä sitä ole tarkoitettu diagnosointiin tai hoitoon.
 
 Suomi, englanti, saksa, ruotsi.
 ```
@@ -65,13 +60,13 @@ Suomi, englanti, saksa, ruotsi.
 ## Tuki-URL
 
 ```
-https://github.com/PhilippeSch/Sauna-Companion/issues
+https://github.com/PhilippeSch/RoundPulse/issues
 ```
 
 ## Tietosuojakäytännön URL
 
 ```
-https://github.com/PhilippeSch/Sauna-Companion/blob/main/docs/Privacy.md
+https://github.com/PhilippeSch/RoundPulse/blob/main/docs/Privacy.md
 ```
 
 ## Copyright

@@ -29,7 +29,7 @@ struct SessionRowView: View {
                 Text("^[\(session.roundCount) round](inflect: true)")
                     .font(.subheadline)
                 HStack(spacing: 8) {
-                    Label(DurationFormatter.abbreviated(session.totalSaunaDuration), systemImage: "flame")
+                    Label(DurationFormatter.abbreviated(session.totalSaunaDuration), systemImage: "timer")
                     if let kcal = session.activeEnergyKcal {
                         Label("\(Int(kcal.rounded())) kcal", systemImage: "bolt.fill")
                     }

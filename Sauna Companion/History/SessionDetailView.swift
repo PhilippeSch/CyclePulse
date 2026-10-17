@@ -39,7 +39,7 @@ struct SessionDetailView: View {
         Form {
             Section("Summary") {
                 row("Rounds", "\(session.roundCount)")
-                row("Sauna Time", DurationFormatter.abbreviated(session.totalSaunaDuration))
+                row("Round Time", DurationFormatter.abbreviated(session.totalSaunaDuration))
                 row("Rest Time", DurationFormatter.abbreviated(session.totalRestDuration))
                 row("Total", DurationFormatter.abbreviated(session.totalDuration))
                 if let kcal = session.activeEnergyKcal {
@@ -82,7 +82,7 @@ struct SessionDetailView: View {
                     // The note travels with the workout in Health, but Health
                     // and Fitness never render third-party workout metadata,
                     // so say plainly where it will and will not show up.
-                    Text("For example: Infrared cabin 50 °C, eucalyptus.\nStored with the session, visible only in Sauna Companion.")
+                    Text("For example: Evening rounds, felt relaxed.\nStored with the session, visible only in RoundPulse.")
                 }
             }
         }

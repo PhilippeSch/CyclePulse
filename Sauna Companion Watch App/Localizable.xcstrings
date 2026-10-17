@@ -374,58 +374,58 @@
         }
       }
     },
-    "End this sauna session?" : {
+    "End this session?" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Diese Saunasitzung beenden?"
+            "value" : "Diese Sitzung beenden?"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "End this sauna session?"
+            "value" : "End this session?"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Lopetetaanko tämä saunaistunto?"
+            "value" : "Lopetetaanko tämä istunto?"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Avsluta detta bastupass?"
+            "value" : "Avsluta detta pass?"
           }
         }
       }
     },
-    "Ends the current sauna round or rest phase and starts the other one." : {
+    "Ends the current round or rest phase and starts the other one." : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Beendet die laufende Sauna-Runde oder Pause und startet die jeweils andere."
+            "value" : "Beendet die laufende Runde oder Pause und startet die jeweils andere."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ends the current sauna round or rest phase and starts the other one."
+            "value" : "Ends the current round or rest phase and starts the other one."
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Päättää nykyisen saunakierroksen tai tauon ja aloittaa toisen."
+            "value" : "Päättää nykyisen kierroksen tai tauon ja aloittaa toisen."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Avslutar den pågående bastuomgången eller vilan och startar den andra."
+            "value" : "Avslutar den pågående omgången eller vilan och startar den andra."
           }
         }
       }
@@ -831,25 +831,25 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sauna"
+            "value" : "Runde"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sauna"
+            "value" : "Round"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sauna"
+            "value" : "Kierros"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bastu"
+            "value" : "Omgång"
           }
         }
       }
@@ -966,86 +966,86 @@
         }
       }
     },
-    "Sauna Companion" : {
+    "RoundPulse" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sauna Companion"
+            "value" : "RoundPulse"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sauna Companion"
+            "value" : "RoundPulse"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Saunakaveri"
+            "value" : "RoundPulse"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bastukompis"
+            "value" : "RoundPulse"
           }
         }
       }
     },
-    "Sauna Session" : {
+    "Round Session" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sauna-Sitzung"
+            "value" : "Rundensitzung"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sauna Session"
+            "value" : "Round Session"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Saunaistunto"
+            "value" : "Kierrosistunto"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bastupass"
+            "value" : "Omgångspass"
           }
         }
       }
     },
-    "Sauna Time" : {
+    "Round Time" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Saunazeit"
+            "value" : "Rundenzeit"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sauna Time"
+            "value" : "Round Time"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sauna-aika"
+            "value" : "Kierrosaika"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bastutid"
+            "value" : "Omgångstid"
           }
         }
       }
@@ -1134,114 +1134,114 @@
         }
       }
     },
-    "Settings → Action Button → Action: Workout → App: Sauna Companion" : {
+    "Settings → Action Button → Action: Workout → App: RoundPulse" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Einstellungen → Aktionstaste → Aktion: Training → App: Sauna Companion"
+            "value" : "Einstellungen → Aktionstaste → Aktion: Training → App: RoundPulse"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Settings → Action Button → Action: Workout → App: Sauna Companion"
+            "value" : "Settings → Action Button → Action: Workout → App: RoundPulse"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Asetukset → Toimintopainike → Toiminto: Treeni → Appi: Saunakaveri"
+            "value" : "Asetukset → Toimintopainike → Toiminto: Treeni → Appi: RoundPulse"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Inställningar → Funktionsknapp → Åtgärd: Träning → App: Bastukompis"
+            "value" : "Inställningar → Funktionsknapp → Åtgärd: Träning → App: RoundPulse"
           }
         }
       }
     },
-    "Start Sauna" : {
+    "Start Round" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sauna starten"
+            "value" : "Runde starten"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Start Sauna"
+            "value" : "Start Round"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aloita sauna"
+            "value" : "Aloita kierros"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Starta bastu"
+            "value" : "Starta omgång"
           }
         }
       }
     },
-    "Start Sauna Session" : {
+    "Start Round Session" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sauna-Sitzung starten"
+            "value" : "Rundensitzung starten"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Start Sauna Session"
+            "value" : "Start Round Session"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aloita saunaistunto"
+            "value" : "Aloita kierrosistunto"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Starta bastupass"
+            "value" : "Starta omgångspass"
           }
         }
       }
     },
-    "Starts a sauna session and its first round." : {
+    "Starts a session and its first round." : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Startet eine Sauna-Sitzung und ihre erste Runde."
+            "value" : "Startet eine Sitzung und ihre erste Runde."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Starts a sauna session and its first round."
+            "value" : "Starts a session and its first round."
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aloittaa saunaistunnon ja sen ensimmäisen kierroksen."
+            "value" : "Aloittaa istunnon ja sen ensimmäisen kierroksen."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Startar ett bastupass och dess första omgång."
+            "value" : "Startar ett pass och dess första omgång."
           }
         }
       }
@@ -1386,282 +1386,30 @@
         }
       }
     },
-    "Your Ultra's Action button can switch between sauna and rest." : {
+    "Your Ultra's Action button can switch between round and rest." : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Die Aktionstaste deiner Ultra kann zwischen Sauna und Pause wechseln."
+            "value" : "Die Aktionstaste deiner Ultra kann zwischen Runde und Pause wechseln."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Your Ultra's Action button can switch between sauna and rest."
+            "value" : "Your Ultra's Action button can switch between round and rest."
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ultran toimintopainike voi vaihtaa saunan ja tauon välillä."
+            "value" : "Ultran toimintopainike voi vaihtaa kierroksen ja tauon välillä."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Funktionsknappen på din Ultra kan växla mellan bastu och vila."
-          }
-        }
-      }
-    },
-    "Heat and Your Watch" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Hitze und deine Uhr"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Heat and Your Watch"
-          }
-        },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kuumuus ja kellosi"
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Värme och din klocka"
-          }
-        }
-      }
-    },
-    "No Apple Watch should be worn in a steam room." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Keine Apple Watch gehört ins Dampfbad."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No Apple Watch should be worn in a steam room."
-          }
-        },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mitään Apple Watchia ei pidä pitää höyrysaunassa."
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ingen Apple Watch ska bäras i ångbastu."
-          }
-        }
-      }
-    },
-    "If your watch gets hot or shows a temperature warning, take it off and let it cool down." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Wird die Uhr heiss oder zeigt sie eine Temperaturwarnung, nimm sie ab und lass sie abkühlen."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "If your watch gets hot or shows a temperature warning, take it off and let it cool down."
-          }
-        },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Jos kello kuumenee tai näyttää lämpötilavaroituksen, riisu se ja anna sen jäähtyä."
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Om klockan blir varm eller visar en temperaturvarning, ta av den och låt den svalna."
-          }
-        }
-      }
-    },
-    "You use Sauna Companion at your own risk. We accept no liability for damage to your Apple Watch." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Du nutzt Sauna Companion auf eigene Verantwortung. Für Schäden an deiner Apple Watch übernehmen wir keine Haftung."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "You use Sauna Companion at your own risk. We accept no liability for damage to your Apple Watch."
-          }
-        },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Käytät Saunakaveria omalla vastuullasi. Emme vastaa Apple Watchillesi aiheutuvista vahingoista."
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Du använder Bastukompis på egen risk. Vi tar inget ansvar för skador på din Apple Watch."
-          }
-        }
-      }
-    },
-    "By tapping Accept, you agree to wear your Apple Watch only within these limits:" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mit «Akzeptieren» sagst du zu, deine Apple Watch nur innerhalb dieser Grenzen zu tragen:"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "By tapping Accept, you agree to wear your Apple Watch only within these limits:"
-          }
-        },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Napauttamalla Hyväksy sitoudut pitämään Apple Watchiasi vain näissä rajoissa:"
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Genom att trycka på Godkänn lovar du att bara bära din Apple Watch inom dessa gränser:"
-          }
-        }
-      }
-    },
-    "Apple Watch Ultra: in a sauna up to 55 °C at most." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Apple Watch Ultra: in der Sauna höchstens bis 55 °C."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Apple Watch Ultra: in a sauna up to 55 °C at most."
-          }
-        },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Apple Watch Ultra: saunassa enintään 55 °C."
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Apple Watch Ultra: i bastu högst upp till 55 °C."
-          }
-        }
-      }
-    },
-    "Accept" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Akzeptieren"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Accept"
-          }
-        },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Hyväksy"
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Godkänn"
-          }
-        }
-      }
-    },
-    "Sauna sessions need Apple Watch Ultra — the only Apple Watch that Apple rates for a sauna, up to 55 °C." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Saunasitzungen brauchen eine Apple Watch Ultra — die einzige Apple Watch, die Apple für die Sauna vorsieht, bis 55 °C."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sauna sessions need Apple Watch Ultra — the only Apple Watch that Apple rates for a sauna, up to 55 °C."
-          }
-        },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Saunakerrat vaativat Apple Watch Ultran — ainoan Apple Watchin, jonka Apple on tarkoittanut saunaan, enintään 55 °C:seen."
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bastupass kräver Apple Watch Ultra — den enda Apple Watch som Apple har klassat för bastu, upp till 55 °C."
-          }
-        }
-      }
-    },
-    "Infrared cabins can be run within this limit; a Finnish sauna at 80–100 °C is far above it." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Infrarotkabinen lassen sich innerhalb dieser Grenze betreiben; eine finnische Sauna mit 80–100 °C liegt weit darüber."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Infrared cabins can be run within this limit; a Finnish sauna at 80–100 °C is far above it."
-          }
-        },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Infrapunasaunat voi pitää tämän rajan sisällä; suomalainen sauna 80–100 °C:ssa on reilusti sen yli."
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Infraröda bastur kan köras inom den här gränsen; en finsk bastu på 80–100 °C ligger långt över den."
+            "value" : "Funktionsknappen på din Ultra kan växla mellan omgång och vila."
           }
         }
       }

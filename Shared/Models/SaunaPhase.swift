@@ -13,7 +13,7 @@ enum SaunaPhase: String, Codable, Sendable, CaseIterable {
 
     var displayName: String {
         switch self {
-        case .sauna: String(localized: "phase.sauna", defaultValue: "Sauna")
+        case .sauna: String(localized: "phase.sauna", defaultValue: "Round")
         case .rest: String(localized: "phase.rest", defaultValue: "Rest")
         }
     }

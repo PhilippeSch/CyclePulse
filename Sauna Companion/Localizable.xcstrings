@@ -665,30 +665,30 @@
         }
       }
     },
-    "For example: Infrared cabin 50 °C, eucalyptus.\nStored with the session, visible only in Sauna Companion." : {
+    "For example: Evening rounds, felt relaxed.\nStored with the session, visible only in RoundPulse." : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zum Beispiel: Infrarotkabine 50 °C, Eukalyptus.\nWird bei der Sitzung gespeichert, sichtbar nur in Sauna Companion."
+            "value" : "Zum Beispiel: Abendrunden, entspannt.\nWird bei der Sitzung gespeichert, sichtbar nur in RoundPulse."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "For example: Infrared cabin 50 °C, eucalyptus.\nStored with the session, visible only in Sauna Companion."
+            "value" : "For example: Evening rounds, felt relaxed.\nStored with the session, visible only in RoundPulse."
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Esimerkiksi: infrapunasauna 50 °C, eukalyptus.\nTallennetaan istunnon mukana, näkyy vain Saunakaverissa."
+            "value" : "Esimerkiksi: iltakierrokset, rentoutunut olo.\nTallennetaan istunnon mukana, näkyy vain RoundPulsessa."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Till exempel: infraröd bastu 50 °C, eukalyptus.\nSparas med passet, syns bara i Bastukompis."
+            "value" : "Till exempel: kvällsomgångar, avslappnad.\nSparas med passet, syns bara i RoundPulse."
           }
         }
       }
@@ -1001,30 +1001,30 @@
         }
       }
     },
-    "No sauna sessions in this period." : {
+    "No sessions in this period." : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Keine Saunasitzungen in diesem Zeitraum."
+            "value" : "Keine Sitzungen in diesem Zeitraum."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "No sauna sessions in this period."
+            "value" : "No sessions in this period."
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ei saunaistuntoja tällä ajanjaksolla."
+            "value" : "Ei istuntoja tällä ajanjaksolla."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Inga bastupass under denna period."
+            "value" : "Inga pass under denna period."
           }
         }
       }
@@ -1510,25 +1510,25 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sauna"
+            "value" : "Runde"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sauna"
+            "value" : "Round"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sauna"
+            "value" : "Kierros"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bastu"
+            "value" : "Omgång"
           }
         }
       }
@@ -1617,30 +1617,30 @@
         }
       }
     },
-    "Sauna Time" : {
+    "Round Time" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Saunazeit"
+            "value" : "Rundenzeit"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sauna Time"
+            "value" : "Round Time"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sauna-aika"
+            "value" : "Kierrosaika"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bastutid"
+            "value" : "Omgångstid"
           }
         }
       }
@@ -1925,30 +1925,30 @@
         }
       }
     },
-    "Total Sauna Time" : {
+    "Total Round Time" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gesamte Saunazeit"
+            "value" : "Gesamte Rundenzeit"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Total Sauna Time"
+            "value" : "Total Round Time"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kokonaissauna-aika"
+            "value" : "Kierrosaika yhteensä"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Total bastutid"
+            "value" : "Total omgångstid"
           }
         }
       }

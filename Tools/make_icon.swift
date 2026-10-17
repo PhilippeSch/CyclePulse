@@ -13,6 +13,9 @@
 // near-black ground made it read as loose artwork floating in the void rather
 // than as a circle — which is what App Review rejected under guideline 4. The
 // iPhone uses the same light ground so both icons are one icon.
+//
+// The artwork is a round ring around a heart: rounds and rest, and the pulse
+// through them.
 
 import Foundation
 import CoreGraphics
@@ -76,145 +79,85 @@ if appearance.drawsBackground {
     ctx.restoreGState()
 }
 
-// ---------- warm glow (behind everything, so nothing gets washed out) ----------
-// Only meaningful over a background; on a transparent ground it would just
-// smear a haze into the alpha channel.
-if appearance.drawsBackground {
-    ctx.saveGState()
-    // A glow that lightens is invisible on birch, so this one warms the
-    // ground downwards instead of blooming out of it.
-    let glow = CGGradient(
-        colorsSpace: cs,
-        colors: [rgb(255, 168, 74, 0.42), rgb(255, 150, 60, 0.14), rgb(255, 150, 60, 0)] as CFArray,
-        locations: [0, 0.45, 1]
-    )!
-    ctx.drawRadialGradient(
-        glow,
-        startCenter: CGPoint(x: W*0.5, y: W*0.66), startRadius: 0,
-        endCenter: CGPoint(x: W*0.5, y: W*0.66), endRadius: W*0.46,
-        options: []
-    )
-    ctx.restoreGState()
-}
+// ---------- round ring ----------
+// One lap of a round: a long orange arc for the round itself and a short teal
+// one for the rest, in the app's two phase colours. Thick strokes with round
+// caps, so the silhouette survives being scaled down to a watch home screen.
+let centre = CGPoint(x: W*0.5, y: W*0.5)
+let ringRadius = W*0.315
+let ringWidth = W*0.088
 
-// ---------- heat waves ----------
-// Thick snaking strokes with round caps, so the silhouette survives being
-// scaled down to a watch home screen.
-func wavePath(x: CGFloat, bottom: CGFloat, top: CGFloat, amp: CGFloat) -> CGPath {
+// The bright end of each colour is what a dark ground needs and a light one
+// cannot carry, so `light` gets a deeper pair, and the dark and tinted
+// variants — which iOS composites onto its own dark ground — the bright one.
+let roundColour = appearance.isLightGround ? rgb(226, 92, 24) : rgb(255, 146, 54)
+let restColour = appearance.isLightGround ? rgb(22, 134, 140) : rgb(64, 200, 196)
+let trackColour = appearance.isLightGround ? rgb(120, 80, 40, 0.14) : rgb(255, 255, 255, 0.14)
+
+func arc(from start: CGFloat, to end: CGFloat, colour: CGColor) {
+    // Angles in degrees, clockwise from twelve o'clock.
     let p = CGMutablePath()
-    let h = bottom - top
-    p.move(to: CGPoint(x: x, y: bottom))
-    p.addCurve(
-        to: CGPoint(x: x, y: bottom - h*0.5),
-        control1: CGPoint(x: x + amp, y: bottom - h*0.16),
-        control2: CGPoint(x: x + amp, y: bottom - h*0.34)
+    p.addArc(
+        center: centre, radius: ringRadius,
+        startAngle: (start - 90) * .pi / 180, endAngle: (end - 90) * .pi / 180,
+        clockwise: false
     )
-    p.addCurve(
-        to: CGPoint(x: x, y: top),
-        control1: CGPoint(x: x - amp, y: bottom - h*0.66),
-        control2: CGPoint(x: x - amp, y: bottom - h*0.84)
-    )
-    return p
-}
-
-struct Wave { let x: CGFloat; let bottom: CGFloat; let top: CGFloat; let amp: CGFloat; let width: CGFloat; let c0: CGColor; let c1: CGColor }
-
-// The bright end of each wave is what a dark ground needs and a light one
-// cannot carry: cream on birch is nearly invisible. So `light` gets a deeper,
-// more saturated pair, and the dark and tinted variants — which iOS
-// composites onto its own dark ground — keep the bright one.
-let waves: [Wave] = appearance.isLightGround
-    ? [
-        Wave(x: W*0.295, bottom: W*0.635, top: W*0.255, amp: W*0.090, width: W*0.062,
-             c0: rgb(240, 108, 30), c1: rgb(186, 38, 16)),
-        Wave(x: W*0.705, bottom: W*0.635, top: W*0.255, amp: -W*0.090, width: W*0.062,
-             c0: rgb(240, 108, 30), c1: rgb(186, 38, 16)),
-        Wave(x: W*0.50, bottom: W*0.655, top: W*0.150, amp: W*0.112, width: W*0.082,
-             c0: rgb(255, 150, 40), c1: rgb(206, 52, 18)),
-    ]
-    : [
-        Wave(x: W*0.295, bottom: W*0.635, top: W*0.255, amp: W*0.090, width: W*0.062,
-             c0: rgb(255, 146, 54), c1: rgb(244, 78, 30)),
-        Wave(x: W*0.705, bottom: W*0.635, top: W*0.255, amp: -W*0.090, width: W*0.062,
-             c0: rgb(255, 146, 54), c1: rgb(244, 78, 30)),
-        Wave(x: W*0.50, bottom: W*0.655, top: W*0.150, amp: W*0.112, width: W*0.082,
-             c0: rgb(255, 220, 120), c1: rgb(255, 126, 34)),
-    ]
-
-for w in waves {
     ctx.saveGState()
-    ctx.setLineWidth(w.width)
+    ctx.setLineWidth(ringWidth)
     ctx.setLineCap(.round)
-    ctx.addPath(wavePath(x: w.x, bottom: w.bottom, top: w.top, amp: w.amp))
-    ctx.replacePathWithStrokedPath()
-    ctx.clip()
-    let g = CGGradient(colorsSpace: cs, colors: [w.c1, w.c0] as CFArray, locations: [0, 1])!
-    ctx.drawLinearGradient(
-        g,
-        start: CGPoint(x: 0, y: w.bottom), end: CGPoint(x: 0, y: w.top),
-        options: [.drawsBeforeStartLocation, .drawsAfterEndLocation]
-    )
-    ctx.restoreGState()
-}
-
-// ---------- sauna stones ----------
-// Drawn over the wave roots so the heat reads as rising out of the stones.
-struct Stone { let x: CGFloat; let y: CGFloat; let r: CGFloat; let shade: CGFloat }
-let stones: [Stone] = [
-    Stone(x: W*0.255, y: W*0.700, r: W*0.098, shade: 0.72),
-    Stone(x: W*0.745, y: W*0.700, r: W*0.098, shade: 0.72),
-    Stone(x: W*0.410, y: W*0.735, r: W*0.115, shade: 1.0),
-    Stone(x: W*0.605, y: W*0.730, r: W*0.108, shade: 0.86),
-]
-
-// Without a background the stones would sink into whatever iOS puts behind
-// them, so they are lifted for the dark and tinted appearances.
-let stoneLift: CGFloat = appearance.drawsBackground ? 1.0 : 1.55
-
-for s in stones {
-    let top = rgb(
-        min(255, Int(126 * s.shade * stoneLift)),
-        min(255, Int(124 * s.shade * stoneLift)),
-        min(255, Int(134 * s.shade * stoneLift))
-    )
-    let bottom = rgb(
-        min(255, Int(40 * s.shade * stoneLift)),
-        min(255, Int(39 * s.shade * stoneLift)),
-        min(255, Int(46 * s.shade * stoneLift))
-    )
-    ctx.saveGState()
-    ctx.addEllipse(in: CGRect(x: s.x - s.r, y: s.y - s.r, width: s.r*2, height: s.r*2))
-    ctx.clip()
-    let g = CGGradient(colorsSpace: cs, colors: [bottom, top] as CFArray, locations: [0, 1])!
-    ctx.drawLinearGradient(
-        g,
-        start: CGPoint(x: 0, y: s.y - s.r), end: CGPoint(x: 0, y: s.y + s.r),
-        options: [.drawsBeforeStartLocation, .drawsAfterEndLocation]
-    )
-    // warm rim on the upper edge — the stones are the thing that is hot
-    ctx.setLineWidth(W*0.007)
-    ctx.setStrokeColor(rgb(255, 150, 70, 0.32 * s.shade))
-    ctx.addEllipse(in: CGRect(x: s.x - s.r*0.99, y: s.y - s.r*0.99, width: s.r*1.98, height: s.r*1.98))
+    ctx.setStrokeColor(colour)
+    ctx.addPath(p)
     ctx.strokePath()
     ctx.restoreGState()
 }
 
-// ---------- heater base ----------
-let baseRect = CGRect(x: W*0.215, y: W*0.800, width: W*0.57, height: W*0.062)
+arc(from: 0, to: 360, colour: trackColour)
+arc(from: 8, to: 244, colour: roundColour)
+arc(from: 272, to: 334, colour: restColour)
+
+// ---------- heart ----------
+// The pulse the app tracks through every round.
+func heartPath(centre c: CGPoint, width w: CGFloat) -> CGPath {
+    let h = w * 0.92
+    let p = CGMutablePath()
+    p.move(to: CGPoint(x: c.x, y: c.y + h*0.46))
+    p.addCurve(
+        to: CGPoint(x: c.x - w*0.5, y: c.y - h*0.12),
+        control1: CGPoint(x: c.x - w*0.16, y: c.y + h*0.30),
+        control2: CGPoint(x: c.x - w*0.5, y: c.y + h*0.14)
+    )
+    p.addCurve(
+        to: CGPoint(x: c.x, y: c.y - h*0.26),
+        control1: CGPoint(x: c.x - w*0.5, y: c.y - h*0.50),
+        control2: CGPoint(x: c.x - w*0.06, y: c.y - h*0.56)
+    )
+    p.addCurve(
+        to: CGPoint(x: c.x + w*0.5, y: c.y - h*0.12),
+        control1: CGPoint(x: c.x + w*0.06, y: c.y - h*0.56),
+        control2: CGPoint(x: c.x + w*0.5, y: c.y - h*0.50)
+    )
+    p.addCurve(
+        to: CGPoint(x: c.x, y: c.y + h*0.46),
+        control1: CGPoint(x: c.x + w*0.5, y: c.y + h*0.14),
+        control2: CGPoint(x: c.x + w*0.16, y: c.y + h*0.30)
+    )
+    p.closeSubpath()
+    return p
+}
+
+let heartWidth = W*0.30
+let heartCentre = CGPoint(x: W*0.5, y: W*0.515)
 ctx.saveGState()
-ctx.addPath(CGPath(roundedRect: baseRect, cornerWidth: W*0.022, cornerHeight: W*0.022, transform: nil))
+ctx.addPath(heartPath(centre: heartCentre, width: heartWidth))
 ctx.clip()
-let baseG = CGGradient(
-    colorsSpace: cs,
-    colors: [
-        rgb(min(255, Int(30 * stoneLift)), min(255, Int(29 * stoneLift)), min(255, Int(35 * stoneLift))),
-        rgb(min(255, Int(72 * stoneLift)), min(255, Int(70 * stoneLift)), min(255, Int(80 * stoneLift))),
-    ] as CFArray,
-    locations: [0, 1]
-)!
+let heartColours = appearance.isLightGround
+    ? [rgb(178, 28, 34), rgb(232, 60, 56)]
+    : [rgb(236, 64, 60), rgb(255, 118, 104)]
+let heartG = CGGradient(colorsSpace: cs, colors: heartColours as CFArray, locations: [0, 1])!
 ctx.drawLinearGradient(
-    baseG,
-    start: CGPoint(x: 0, y: baseRect.minY), end: CGPoint(x: 0, y: baseRect.maxY),
+    heartG,
+    start: CGPoint(x: 0, y: heartCentre.y + heartWidth*0.45),
+    end: CGPoint(x: 0, y: heartCentre.y - heartWidth*0.45),
     options: [.drawsBeforeStartLocation, .drawsAfterEndLocation]
 )
 ctx.restoreGState()

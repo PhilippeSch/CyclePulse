@@ -555,10 +555,10 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Sauna Companion";
+				INFOPLIST_KEY_CFBundleDisplayName = RoundPulse;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
-				INFOPLIST_KEY_NSHealthShareUsageDescription = "Sauna Companion reads your sauna session history and body weight from Health to show statistics and estimate calories burned.";
-				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Sauna Companion can update session notes stored in Health.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "RoundPulse reads your session history and body weight from Health to show statistics and estimate calories burned.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "RoundPulse can update session notes stored in Health.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -603,10 +603,10 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Sauna Companion";
+				INFOPLIST_KEY_CFBundleDisplayName = RoundPulse;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
-				INFOPLIST_KEY_NSHealthShareUsageDescription = "Sauna Companion reads your sauna session history and body weight from Health to show statistics and estimate calories burned.";
-				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Sauna Companion can update session notes stored in Health.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "RoundPulse reads your session history and body weight from Health to show statistics and estimate calories burned.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "RoundPulse can update session notes stored in Health.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

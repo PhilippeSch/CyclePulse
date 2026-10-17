@@ -38,7 +38,7 @@ struct ActionButtonInfoView: View {
                 Text("Action Button")
                     .font(.headline)
 
-                Text("Your Ultra's Action button can switch between sauna and rest.")
+                Text("Your Ultra's Action button can switch between round and rest.")
                     .font(.system(size: 13))
 
                 Text("Point it here once:")
@@ -46,7 +46,7 @@ struct ActionButtonInfoView: View {
                     .foregroundStyle(.secondary)
                     .padding(.top, 2)
 
-                Text("Settings → Action Button → Action: Workout → App: Sauna Companion")
+                Text("Settings → Action Button → Action: Workout → App: RoundPulse")
                     .font(.system(size: 13, weight: .semibold))
                     .padding(8)
                     .frame(maxWidth: .infinity)

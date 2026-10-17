@@ -20,7 +20,7 @@ struct SessionMetadataCodingTests {
             startDate: start,
             endDate: start.addingTimeInterval(1800),
             intervals: [interval],
-            notes: "Finnish sauna 90°C",
+            notes: "Evening rounds, felt relaxed",
             metUsed: 1.75
         )
         let payload = SessionMetadataPayload(session: session)
@@ -29,7 +29,7 @@ struct SessionMetadataCodingTests {
         #expect(encoded != nil)
 
         let decoded = encoded.flatMap(SessionMetadataCoding.decode)
-        #expect(decoded?.notes == "Finnish sauna 90°C")
+        #expect(decoded?.notes == "Evening rounds, felt relaxed")
         #expect(decoded?.intervals.count == 1)
         #expect(decoded?.intervals.first?.maxHeartRateBPM == 142)
         #expect(decoded?.metUsed == 1.75)

@@ -142,8 +142,7 @@ enum StoreFactory {
     static func make(
         settings: AppSettings = .default,
         bodyWeightKg: Double? = 80,
-        minimumPhaseDuration: TimeInterval = 0,
-        supportsSessions: Bool = true
+        minimumPhaseDuration: TimeInterval = 0
     ) -> (SessionStore, FakeRecorder, FakeHapticScheduler) {
         let recorder = FakeRecorder()
         let haptics = FakeHapticScheduler()
@@ -151,8 +150,7 @@ enum StoreFactory {
             recorder: recorder,
             hapticScheduler: haptics,
             bodyWeightProvider: { override in override ?? bodyWeightKg },
-            minimumPhaseDuration: minimumPhaseDuration,
-            supportsSessions: supportsSessions
+            minimumPhaseDuration: minimumPhaseDuration
         )
         store.settings = settings
         return (store, recorder, haptics)

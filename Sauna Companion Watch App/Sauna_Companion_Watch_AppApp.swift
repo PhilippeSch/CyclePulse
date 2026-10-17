@@ -14,12 +14,9 @@ struct Sauna_Companion_Watch_AppApp: App {
     @State private var store: SessionStore
 
     init() {
-        // Apple rates only Apple Watch Ultra for a sauna, up to 55 °C, so no
-        // other model starts a session at all.
         let store = SessionStore(
             recorder: HealthKitSessionRecorder(),
-            hapticScheduler: HapticScheduler(),
-            supportsSessions: WatchHardware.isUltra
+            hapticScheduler: HapticScheduler()
         )
         store.makeCurrent()
         _store = State(initialValue: store)

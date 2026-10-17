@@ -23,7 +23,7 @@ struct HistoryListView: View {
                 } else if sessions.isEmpty {
                     ContentUnavailableView(
                         "No Sessions Yet",
-                        systemImage: "flame",
+                        systemImage: "timer",
                         description: Text("Start a session on your Apple Watch to see it here.")
                     )
                 } else {

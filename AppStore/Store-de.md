@@ -3,13 +3,13 @@
 ## Name (max. 30)
 
 ```
-Sauna Companion
+RoundPulse
 ```
 
 ## Untertitel (max. 30)
 
 ```
-Deine Sauna, Runde für Runde
+Runden, Pausen und Puls
 ```
 
 ## Werbetext (max. 170)
@@ -21,43 +21,38 @@ Grosser Timer, Puls und Rundenzähler, auf einen Blick lesbar. Jede Sitzung geht
 ## Schlüsselwörter (max. 100)
 
 ```
-Infrarot,Infrarotkabine,Saunagang,Schwitzen,Runden,Puls,Timer,Wellness,Erholung,saunieren,Ultra
+Intervall,Runden,Pause,Puls,Herzfrequenz,Timer,Stoppuhr,Erholung,Routine,Watch,Ultra
 ```
 
 ## Beschreibung (max. 4000)
 
 ```
-Ein Saunabesuch besteht aus Runden. Sauna Companion zählt sie mit, Runde für Runde, auf deiner Apple Watch Ultra.
+Viele Routinen bestehen aus Runden: eine Phase, dann eine Pause, dann die nächste Runde. RoundPulse zählt sie mit, Runde für Runde, auf deiner Apple Watch.
 
-Auf der Apple Watch läuft ein grosser Timer in der Farbe der Phase: Orange in der Sauna, Türkis in der Pause. Daneben der aktuelle Puls, der höchste Puls der Runde und die laufende Runde. Ein Wisch nach links beendet die Sitzung oder schaltet die Wassersperre ein.
+Auf der Apple Watch läuft ein grosser Timer in der Farbe der Phase: Orange in der Runde, Türkis in der Pause. Daneben der aktuelle Puls, der höchste Puls der Runde und die laufende Runde. Ein Wisch nach links beendet die Sitzung oder schaltet die Wassersperre ein.
 
 AUF DER UHR
-• Grosser Phasen-Timer, orange für Sauna, türkis für Pause
+• Grosser Phasen-Timer, orange für Runde, türkis für Pause
 • Aktueller Puls und Maximum der laufenden Runde
 • Always-On: Phase, Zeit und Puls bleiben sichtbar
-• Wassersperre gegen Fehleingaben durch Schweiss
+• Wassersperre gegen versehentliche Eingaben
 • Vibration als Erinnerung, im gewählten Abstand oder ganz aus
-• Aktionstaste der Apple Watch Ultra: ein Druck wechselt zwischen Sauna und Pause
+• Aktionstaste der Apple Watch Ultra: ein Druck wechselt zwischen Runde und Pause
 
 AUF DEM IPHONE
 • Statistik nach Tag, Woche, Monat, Jahr oder gesamt
-• Saunazeit, Sitzungen, Runden, Kalorien, Pulsverlauf
+• Rundenzeit, Sitzungen, Runden, Kalorien, Pulsverlauf
 • Längste Sitzung, liebster Wochentag, liebste Tageszeit
 • Verlauf mit jeder einzelnen Runde
-• Notiz pro Sitzung: «Infrarotkabine 50 °C, Eukalyptus»
+• Notiz pro Sitzung: «Abendrunden, entspannt»
 • MET-Wert und Körpergewicht einstellbar
-
-HITZE UND DEINE APPLE WATCH
-Apple sieht die Apple Watch Ultra in der Sauna bis 55 °C vor und kein anderes Apple-Watch-Modell überhaupt. Sauna Companion führt Saunasitzungen deshalb nur auf der Apple Watch Ultra durch und bittet dich vor der ersten Sitzung, diese Grenze zu akzeptieren. Infrarotkabinen lassen sich innerhalb dieser Grenze betreiben; eine finnische Sauna mit 80 bis 100 °C liegt weit darüber. Keine Apple Watch gehört ins Dampfbad. Wird die Uhr heiss oder zeigt sie eine Temperaturwarnung, nimm sie ab und lass sie abkühlen.
-
-Du nutzt die App auf eigene Verantwortung.
 
 ALLES BLEIBT BEI DIR
 Apple Health ist der einzige Speicher. Jede beendete Sitzung wird als Workout gesichert, mit Puls je Runde und geschätztem Kalorienverbrauch; Rundenstruktur und Notiz reisen als Metadaten mit. Die App hat keine eigene Datenbank, kein Konto, keinen Server und keine Werbung, arbeitet vollständig offline und erfasst nichts. Wer eine Sitzung in der App löscht, löscht sie auch in Health.
 
-Kalorien schätzt die App nach dem MET-Modell und rechnet nur die Zeit in der Sauna. Der MET-Wert ist zwischen 1,5 und 2,0 einstellbar, das Gewicht kommt aus Health oder aus den Einstellungen.
+Kalorien schätzt die App nach dem MET-Modell und rechnet nur die Zeit in den Runden, nicht die Pausen. Der MET-Wert ist zwischen 1,5 und 2,0 einstellbar, das Gewicht kommt aus Health oder aus den Einstellungen.
 
-Sauna Companion ist kein Medizinprodukt und dient nicht der Diagnose oder Behandlung.
+RoundPulse ist kein Medizinprodukt und dient nicht der Diagnose oder Behandlung.
 
 Deutsch, Englisch, Schwedisch, Finnisch.
 ```
@@ -65,13 +60,13 @@ Deutsch, Englisch, Schwedisch, Finnisch.
 ## Support-URL
 
 ```
-https://github.com/PhilippeSch/Sauna-Companion/issues
+https://github.com/PhilippeSch/RoundPulse/issues
 ```
 
 ## Datenschutz-URL
 
 ```
-https://github.com/PhilippeSch/Sauna-Companion/blob/main/docs/Privacy.md
+https://github.com/PhilippeSch/RoundPulse/blob/main/docs/Privacy.md
 ```
 
 ## Copyright (max. 200, gilt für alle Sprachen)

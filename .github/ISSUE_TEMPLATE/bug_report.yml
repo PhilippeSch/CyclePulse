@@ -24,7 +24,7 @@ body:
       label: How can I reproduce it?
       description: The taps that lead there, starting from the start screen.
       placeholder: |
-        1. Start Sauna
+        1. Start Round
         2. Tap Rest after about a minute
         3. Tap Next Round
         4. …

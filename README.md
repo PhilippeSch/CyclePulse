@@ -1,13 +1,12 @@
-# Sauna Companion
+# RoundPulse
 
-An Apple Watch app for tracking sauna visits, with an iPhone companion for
-statistics and history. Built to be read at a glance with wet hands: dark,
-high contrast, few and large targets.
+An Apple Watch round timer with live heart rate, with an iPhone companion for
+statistics and history. Built to be read at a glance: dark, high contrast, few
+and large targets.
 
 ## What it does
 
-A **session** is one visit and consists of several **rounds** — time in the
-sauna — with a rest phase between them.
+A **session** consists of several **rounds** with a rest phase between them.
 
 **On the watch**
 
@@ -16,33 +15,18 @@ sauna — with a rest phase between them.
 - Swipe left for the controls page: end the session, or engage Water Lock
 - Always-On display keeps phase, elapsed time and pulse visible
 - Optional reminder taps at a configurable interval, or switched off entirely
-- Action button support on Apple Watch Ultra to switch between sauna and rest
+- Action button support on Apple Watch Ultra to switch between round and rest
   (see [Action button](#action-button) for the one-time setup it needs)
 
 **On the iPhone**
 
-- Statistics per day, week, month, year or all time: total sauna time,
+- Statistics per day, week, month, year or all time: total round time,
   sessions, rounds, averages, calories, heart-rate trends, longest session and
   which day and time of day you go most often
 - History with a round-by-round breakdown of every session
-- Notes per session ("Infrared cabin 50 °C, eucalyptus")
+- Notes per session ("Evening rounds, felt relaxed")
 - Settings for MET value, body weight override, vibration
 - Swipe left on a session to delete it
-
-## Heat and the watch
-
-Apple rates Apple Watch Ultra for a sauna up to 55 °C, every other model not
-at all, and no model for a steam room — see
-[About Apple Watch water resistance](https://support.apple.com/en-us/109522).
-The app follows that rather than what feels reasonable in a sauna. Sauna
-sessions run on Apple Watch Ultra only: `SessionStore` is created with
-`supportsSessions` from `WatchHardware.isUltra`, and on every other model no
-start gets through — not the button, not an App Intent, not a start the Action
-button left pending — while the start screen says why. On Ultra,
-`HeatSafetyView` asks the user to accept the 55 °C limit before the first
-session; infrared cabins can be run within it, a Finnish sauna cannot. Whether
-they keep to it is up to them; the app does not check. Settings keeps the
-notice within reach.
 
 ## Action button
 
@@ -68,7 +52,7 @@ the first doing nothing.
 **One-time setup.** An app cannot claim the button; it has to be pointed here,
 and the assignment is global rather than per-app:
 
-**Settings → Action Button → Action: Workout → App: Sauna Companion**
+**Settings → Action Button → Action: Workout → App: RoundPulse**
 
 While it points here, a press no longer starts a workout in Apple's Workout
 app. `ActionButtonInfoView` says all of this on first launch, on Ultra models
@@ -84,15 +68,15 @@ has no account and collects nothing. Deleting a session in the app deletes the
 workout in Health.
 
 A note is stored with the workout, but Health and Fitness do not render
-third-party workout metadata — so notes are only visible inside Sauna Companion.
+third-party workout metadata — so notes are only visible inside RoundPulse.
 
 ## Calories
 
 Energy is estimated with the MET model, counting only time actually spent in
-the sauna:
+rounds, not the rests:
 
 ```
-kcal = MET × body weight (kg) × hours in sauna
+kcal = MET × body weight (kg) × hours in rounds
 ```
 
 The MET value is configurable between 1.5 and 2.0 and defaults to 1.75. Body
@@ -101,13 +85,15 @@ weight comes from Health unless overridden in settings.
 ## Requirements
 
 - watchOS 26.5, iOS 26.5, Xcode 26
-- Apple Watch Ultra for sauna sessions and the Action button. On other
-  models the watch app explains that sessions need an Ultra; the iPhone app
-  still shows the history
+- Apple Watch Ultra for the Action button; everything else runs on any
+  Apple Watch
 
 ## Build
 
 Open `Sauna Companion.xcodeproj` and run the *Sauna Companion Watch App* scheme.
+The project, target and bundle identifiers keep the app's original working
+name; they are identifiers, and the Health data of existing sessions is bound
+to them.
 
 The build number is a `YYYYMMDDHHMM` timestamp shared by both apps: a build
 phase writes `Config/Version.xcconfig`, and every target takes

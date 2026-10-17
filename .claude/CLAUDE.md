@@ -1,9 +1,11 @@
-# Sauna Companion
+# RoundPulse
 
 ## What this is
 
-An Apple Watch app for tracking sauna visits, with an iPhone companion for
-statistics and history. SwiftUI, HealthKit as the only data store, no backend.
+An Apple Watch round timer with live heart rate (rounds and rest phases), with
+an iPhone companion for statistics and history. The project, targets, schemes
+and bundle IDs keep the old working name "Sauna Companion"; they are
+identifiers and stay. SwiftUI, HealthKit as the only data store, no backend.
 Localised in English, German, Swedish and Finnish. The repository is public.
 `README.md` describes the features, the architecture and how to build.
 
@@ -79,9 +81,9 @@ Localised in English, German, Swedish and Finnish. The repository is public.
 - `xcrun simctl launch` passes neither arguments nor environment variables to
   a watch app. To put a value into a running watch app, set it from lldb
   inside the process instead.
-- Heat limits follow Apple's published water-resistance ratings, not what
-  feels reasonable in a sauna. Keep app texts and store texts consistent with
-  them.
-- Sauna sessions run on Apple Watch Ultra only, the one model Apple rates for
-  a sauna (up to 55 °C). The listing points at saunas within that limit, such
-  as infrared cabins, not at a Finnish sauna.
+- App Review rejected the app five times under guideline 2.4.2 because it
+  was marketed for use in a sauna. Nothing user-facing may mention a sauna,
+  heat or temperatures: app texts, catalogs, Info.plist strings, icon, store
+  texts, screenshots, `README.md` and `docs/Privacy.md`. The app is a neutral
+  round timer with heart rate. Code identifiers such as `SaunaSession` and
+  the Health metadata key stay, because stored sessions depend on them.

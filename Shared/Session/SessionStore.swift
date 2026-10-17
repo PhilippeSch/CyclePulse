@@ -38,13 +38,6 @@ final class SessionStore {
     /// uses `defaultMinimumPhaseDuration`.
     let minimumPhaseDuration: TimeInterval
 
-    /// False on every Apple Watch that Apple does not rate for a sauna, which
-    /// is every model but Ultra. No session starts then, whichever way it is
-    /// asked for: the Start button, an App Intent, or a start the Action
-    /// button left pending. Checked here rather than in each of those, so a
-    /// new way in cannot forget it.
-    let supportsSessions: Bool
-
     var settings: AppSettings = .default
     var isActive: Bool { if case .active = stage { true } else { false } }
 
@@ -109,11 +102,9 @@ final class SessionStore {
         connectivity: WatchConnectivityService? = nil,
         hapticScheduler: HapticScheduling,
         bodyWeightProvider: BodyWeightProviding? = nil,
-        minimumPhaseDuration: TimeInterval = SessionStore.defaultMinimumPhaseDuration,
-        supportsSessions: Bool = true
+        minimumPhaseDuration: TimeInterval = SessionStore.defaultMinimumPhaseDuration
     ) {
         self.minimumPhaseDuration = minimumPhaseDuration
-        self.supportsSessions = supportsSessions
         self.recorder = recorder
         self.connectivity = connectivity ?? .shared
         self.hapticScheduler = hapticScheduler
@@ -125,7 +116,7 @@ final class SessionStore {
     }
 
     func startSession() async {
-        guard supportsSessions, case .idle = stage else { return }
+        guard case .idle = stage else { return }
         let start = Date.now
         sessionID = UUID()
         sessionStartDate = start

@@ -67,19 +67,19 @@ enum SaunaWorkoutStyle: String, AppEnum {
     case sauna
 
     static var typeDisplayRepresentation: TypeDisplayRepresentation {
-        TypeDisplayRepresentation(name: "Sauna Session")
+        TypeDisplayRepresentation(name: "Round Session")
     }
 
     static var caseDisplayRepresentations: [SaunaWorkoutStyle: DisplayRepresentation] {
-        [.sauna: DisplayRepresentation(title: "Sauna Session")]
+        [.sauna: DisplayRepresentation(title: "Round Session")]
     }
 }
 
 /// First press: starts the session. This is also what puts the app in the
 /// list under Settings > Action Button > Action: Workout.
 struct StartSaunaWorkoutIntent: AppIntent, StartWorkoutIntent {
-    static var title: LocalizedStringResource = "Start Sauna Session"
-    static var description = IntentDescription("Starts a sauna session and its first round.")
+    static var title: LocalizedStringResource = "Start Round Session"
+    static var description = IntentDescription("Starts a session and its first round.")
 
     // openAppWhenRun is deliberately left alone: the system launches the app
     // before running a start intent, and Apple's guidance is not to change it.
@@ -92,7 +92,7 @@ struct StartSaunaWorkoutIntent: AppIntent, StartWorkoutIntent {
     }
 
     var displayRepresentation: DisplayRepresentation {
-        DisplayRepresentation(title: "Sauna Session")
+        DisplayRepresentation(title: "Round Session")
     }
 
     init() {
@@ -129,7 +129,7 @@ struct StartSaunaWorkoutIntent: AppIntent, StartWorkoutIntent {
 /// Every press after that: ends the current phase and begins the other one.
 struct TogglePhaseIntent: AppIntent {
     static var title: LocalizedStringResource = "Switch Phase"
-    static var description = IntentDescription("Ends the current sauna round or rest phase and starts the other one.")
+    static var description = IntentDescription("Ends the current round or rest phase and starts the other one.")
 
     init() {}
 

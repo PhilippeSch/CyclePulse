@@ -7,25 +7,25 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sauna Companion"
+            "value" : "RoundPulse"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sauna Companion"
+            "value" : "RoundPulse"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Saunakaveri"
+            "value" : "RoundPulse"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bastukompis"
+            "value" : "RoundPulse"
           }
         }
       }
@@ -49,25 +49,25 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sauna Companion liest deinen Saunaverlauf und dein Körpergewicht aus Health, um Statistiken zu zeigen und Kalorien zu schätzen."
+            "value" : "RoundPulse liest deinen Sitzungsverlauf und dein Körpergewicht aus Health, um Statistiken zu zeigen und Kalorien zu schätzen."
           }
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Sauna Companion reads your sauna session history and body weight from Health to show statistics and estimate calories burned."
+            "state" : "translated",
+            "value" : "RoundPulse reads your session history and body weight from Health to show statistics and estimate calories burned."
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Saunakaveri lukee saunahistoriasi ja painosi Terveydestä näyttääkseen tilastoja ja arvioidakseen kalorit."
+            "value" : "RoundPulse lukee istuntohistoriasi ja painosi Terveydestä näyttääkseen tilastoja ja arvioidakseen kalorit."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bastukompis läser din bastuhistorik och din kroppsvikt från Hälsa för att visa statistik och beräkna kalorier."
+            "value" : "RoundPulse läser din passhistorik och din kroppsvikt från Hälsa för att visa statistik och beräkna kalorier."
           }
         }
       }
@@ -79,25 +79,25 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sauna Companion kann Notizen zu Sitzungen aktualisieren, die in Health gespeichert sind."
+            "value" : "RoundPulse kann Notizen zu Sitzungen aktualisieren, die in Health gespeichert sind."
           }
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Sauna Companion can update session notes stored in Health."
+            "state" : "translated",
+            "value" : "RoundPulse can update session notes stored in Health."
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Saunakaveri voi päivittää Terveyteen tallennettuja saunakertojen muistiinpanoja."
+            "value" : "RoundPulse voi päivittää Terveyteen tallennettujen istuntojen muistiinpanoja."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bastukompis kan uppdatera anteckningar om pass som sparats i Hälsa."
+            "value" : "RoundPulse kan uppdatera anteckningar om pass som sparats i Hälsa."
           }
         }
       }

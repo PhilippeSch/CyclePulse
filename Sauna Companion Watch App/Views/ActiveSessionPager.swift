@@ -49,7 +49,7 @@ struct ActiveSessionPager: View {
         // middle already names the phase — a title there just said it twice.
         .navigationTitle("")
         .confirmationDialog(
-            "End this sauna session?",
+            "End this session?",
             isPresented: $showingEndConfirmation,
             titleVisibility: .visible
         ) {

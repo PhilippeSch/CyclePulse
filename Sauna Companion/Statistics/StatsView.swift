@@ -48,7 +48,7 @@ struct StatsView: View {
                     ContentUnavailableView(
                         "No Data",
                         systemImage: "chart.bar",
-                        description: Text("No sauna sessions in this period.")
+                        description: Text("No sessions in this period.")
                     )
                     .padding(.top, 40)
                 } else {
@@ -66,7 +66,7 @@ struct StatsView: View {
             Text(DurationFormatter.abbreviated(stats.totalSaunaTime))
                 .font(.system(size: 44, weight: .bold, design: .rounded))
                 .foregroundStyle(.orange)
-            Text("Total Sauna Time")
+            Text("Total Round Time")
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
         }
@@ -77,7 +77,7 @@ struct StatsView: View {
 
     private func grid(_ stats: SaunaStatistics) -> some View {
         LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 12) {
-            StatCard(title: "Sessions", value: "\(stats.sessionCount)", symbol: "flame.fill", tint: .orange)
+            StatCard(title: "Sessions", value: "\(stats.sessionCount)", symbol: "timer", tint: .orange)
             StatCard(title: "Rounds", value: "\(stats.totalRounds)", symbol: "repeat", tint: .orange)
             StatCard(
                 title: "Avg. Round",
