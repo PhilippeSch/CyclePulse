@@ -123,14 +123,18 @@ final class SessionStore {
         intervals = []
         roundCount = 0
         lastErrorDescription = nil
+        // The first round begins before the screen switches and before
+        // HealthKit is asked for anything. Bringing up the workout takes a
+        // second or two, and the timer is on screen for all of it: begun only
+        // afterwards, it counted from the previous session's last phase (or
+        // from app launch) and showed "29:14" before dropping to "00:01". It
+        // also starts at `start`, so it lines up with the session it belongs
+        // to, and a press or an end during the start acts on this round.
+        beginPhase(.sauna, at: start)
         stage = .active
         isStartingRecording = true
         await recorder.startWorkoutSession(startDate: start)
         isStartingRecording = false
-        // Starts at `start`, not "now": bringing up the HealthKit session
-        // takes about a second, and the first round has to line up with the
-        // session it belongs to rather than trail it.
-        beginPhase(.sauna, at: start)
     }
 
     private func beginPhase(_ phase: SaunaPhase, at date: Date = .now) {

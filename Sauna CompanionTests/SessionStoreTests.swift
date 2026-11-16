@@ -148,6 +148,33 @@ struct SessionStoreTests {
         #expect(store.showsNotRecordingWarning == false, "a start that worked never warns")
     }
 
+    @Test func timerStartsAtZeroWhileHealthKitIsStillStarting() async throws {
+        let (store, recorder, _) = StoreFactory.make()
+
+        // A previous session leaves its last phase start behind.
+        await store.startSession()
+        try await Task.sleep(for: .milliseconds(300))
+        await store.endSession()
+        store.reset()
+
+        recorder.startDelay = .milliseconds(300)
+        let before = Date.now
+        let starting = Task { await store.startSession() }
+        try await Task.sleep(for: .milliseconds(100))
+
+        // The timer is on screen from here on and counts from
+        // `phaseStartDate`, so it has to belong to the new session already,
+        // not to the last phase of the previous one.
+        #expect(store.isActive)
+        #expect(store.phaseStartDate >= before)
+        #expect(store.currentPhase == .sauna)
+        #expect(store.roundCount == 1)
+
+        await starting.value
+        #expect(store.phaseStartDate >= before, "the round keeps its start once HealthKit is up")
+        #expect(store.roundCount == 1)
+    }
+
     @Test func healthWarningShowsOnceTheStartHasFailed() async {
         let (store, recorder, _) = StoreFactory.make()
         recorder.startSucceeds = false
