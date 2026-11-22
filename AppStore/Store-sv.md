@@ -57,6 +57,12 @@ Cycle Pulse är ingen medicinteknisk produkt och är inte avsedd för diagnos el
 Svenska, engelska, tyska, finska.
 ```
 
+## Nyheter i den här versionen (max. 4000)
+
+```
+När ett nytt pass startar visar timern nu 00:00 direkt. Tidigare syntes en gammal tid från förra passet under den första sekunden.
+```
+
 ## Support-URL
 
 ```

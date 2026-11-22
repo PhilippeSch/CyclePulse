@@ -57,6 +57,12 @@ Cycle Pulse ist kein Medizinprodukt und dient nicht der Diagnose oder Behandlung
 Deutsch, Englisch, Schwedisch, Finnisch.
 ```
 
+## Neuerungen in dieser Version (max. 4000)
+
+```
+Beim Start einer neuen Sitzung zeigt der Timer sofort 00:00. Bisher erschien in der ersten Sekunde kurz eine alte Zeit aus der letzten Sitzung.
+```
+
 ## Support-URL
 
 ```

@@ -57,6 +57,12 @@ Cycle Pulse is not a medical device and is not intended for diagnosis or treatme
 English, German, Swedish, Finnish.
 ```
 
+## What's New in This Version (max. 4000)
+
+```
+When a new session starts, the timer now shows 00:00 right away. Before, an old time from the previous session flashed up for the first second.
+```
+
 ## Support URL
 
 ```

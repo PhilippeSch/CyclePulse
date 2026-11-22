@@ -57,6 +57,12 @@ Cycle Pulse ei ole lääkinnällinen laite eikä sitä ole tarkoitettu diagnosoi
 Suomi, englanti, saksa, ruotsi.
 ```
 
+## Uutta tässä versiossa (enint. 4000)
+
+```
+Kun uusi istunto alkaa, ajastin näyttää nyt heti 00:00. Aiemmin ensimmäisen sekunnin ajan näkyi hetken vanha aika edellisestä istunnosta.
+```
+
 ## Tuki-URL
 
 ```
